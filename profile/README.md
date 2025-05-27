@@ -38,7 +38,7 @@ Want to know more or get involved?
 
 - 🌍 **Website**: [www.myfoodforest.nl](https://www.myfoodforest.nl)
 - 🔐 **Privacy Policy**  [Privacy Policy](../PRIVACY_EN.md)
-- 💼 **Terms & Conditions** [Terms and Condition](../TERMSANDCONDITIONS_EN.md)
+- 💼 **Terms & Conditions** [Terms and Conditions](../TERMSANDCONDITIONS_EN.md)
 
 ---
 
