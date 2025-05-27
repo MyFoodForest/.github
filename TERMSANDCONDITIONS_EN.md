@@ -226,7 +226,7 @@ These Terms are governed by Dutch law, excluding conflict of law principles.
 
 ### 15.2 Jurisdiction
 
-Any disputes will be subject to the exclusive jurisdiction of the courts of the Netherlands, specifically the competent court in [INSERT CITY WHERE COMPANY IS LOCATED].
+Any disputes will be subject to the exclusive jurisdiction of the courts of the Netherlands, specifically the competent court in Utrecht.
 
 ### 15.3 Alternative Dispute Resolution
 

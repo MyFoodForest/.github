@@ -222,7 +222,6 @@ Wij kunnen diensten van derden gebruiken die hun eigen cookies plaatsen:
 |---------|---------|------|----------------|
 | Microsoft Azure | Hosting en analytics | Functioneel/Analytics | [Microsoft Privacybeleid](https://privacy.microsoft.com) |
 | Google Analytics (indien gebruikt) | Gebruiksanalytics | Analytics | [Google Privacybeleid](https://policies.google.com/privacy) |
-| [Andere diensten] | [Doel] | [Type] | [Link naar beleid] |
 
 ### 11.4 Mobiele App Tracking
 
@@ -305,7 +304,7 @@ Met uw toestemming kunnen wij u marketingcommunicatie sturen over onze diensten.
 ## 14. Functionaris voor Gegevensbescherming
 
 Voor vragen over gegevensbescherming kunt u contact opnemen met onze Functionaris voor Gegevensbescherming via:
-E-mail: [FG E-MAIL INVOEGEN]
+E-mail: <hello@myfoodforest.nl>
 
 ## 15. Toezichthouder
 

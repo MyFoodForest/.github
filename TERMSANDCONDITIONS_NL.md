@@ -226,7 +226,7 @@ Deze Voorwaarden worden beheerst door Nederlands recht, exclusief internationaal
 
 ### 15.2 Bevoegdheid
 
-Eventuele geschillen vallen onder de exclusieve bevoegdheid van de rechtbanken van Nederland, specifiek de bevoegde rechtbank in [PLAATS WAAR BEDRIJF GEVESTIGD IS INVOEGEN].
+Eventuele geschillen vallen onder de exclusieve bevoegdheid van de rechtbanken van Nederland, specifiek de bevoegde rechtbank in Utrecht.
 
 ### 15.3 Alternatieve Geschillenbeslechting
 

@@ -223,7 +223,6 @@ We may use third-party services that set their own cookies:
 |---------|---------|------|----------------|
 | Microsoft Azure | Hosting and analytics | Functional/Analytics | [Microsoft Privacy Policy](https://privacy.microsoft.com) |
 | Google Analytics (if used) | Usage analytics | Analytics | [Google Privacy Policy](https://policies.google.com/privacy) |
-| [Other services] | [Purpose] | [Type] | [Link to policy] |
 
 ### 11.4 Mobile App Tracking
 
@@ -306,7 +305,7 @@ With your consent, we may send you marketing communications about our services. 
 ## 14. Data Protection Officer
 
 For questions about data protection, you can contact our Data Protection Officer at:
-Email: [INSERT DPO EMAIL]
+Email: <hello@myfoodforest.nl>
 
 ## 15. Supervisory Authority
 
