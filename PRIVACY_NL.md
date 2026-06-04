@@ -1,19 +1,24 @@
 # Privacyverklaring
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 27 mei 2025
+Laatst bijgewerkt: 4 juni 2026
 
 ## 1. Inleiding
 
-My Food Forest B.V. ("wij," "ons," of "ons") respecteert uw privacy en zet zich in voor de bescherming van uw persoonsgegevens. Deze privacyverklaring legt uit hoe wij uw informatie verzamelen, gebruiken en beschermen wanneer u onze voedselbos applicatie (de "App") en gerelateerde diensten gebruikt.
+My Food Forest B.V. ("wij", "ons" of "onze") respecteert uw privacy en zet zich in voor de bescherming van uw persoonsgegevens. Deze privacyverklaring legt uit hoe wij uw informatie verzamelen, gebruiken en beschermen wanneer u gebruikmaakt van:
+
+- onze voedselbos mobiele applicatie (de "App"), en
+- onze website op [www.myfoodforest.nl](https://www.myfoodforest.nl) (de "Website"),
+
+samen de "Diensten".
 
 Dit beleid voldoet aan de Algemene Verordening Gegevensbescherming (AVG) en Nederlandse wetgeving voor gegevensbescherming, waaronder de Uitvoeringswet Algemene verordening gegevensbescherming (UAVG).
 
 ## 2. Verwerkingsverantwoordelijke
 
 **My Food Forest B.V.**  
-Westenburg 53  
-3405 AS Benschop  
+Domeinweg 11  
+7931 TJ Fluitenberg  
 Nederland  
 E-mail: <hello@myfoodforest.nl>  
 Kamer van Koophandel nummer: 96517557
@@ -22,58 +27,67 @@ Kamer van Koophandel nummer: 96517557
 
 ### 3.1 Informatie Die U Verstrekt
 
+**In de App:**
+
 - Accountregistratiegegevens (naam, e-mailadres, gebruikersnaam)
 - Profielinformatie (locatie, tuinierervaring, voorkeuren)
-- Inhoud die u creëert (berichten, foto's, opmerkingen, plantenregistraties)
+- Inhoud die u creëert (berichten, foto's, opmerkingen, plant- en oogstregistraties)
 - Communicatie met ons (supportverzoeken, feedback)
+
+**Op de Website:**
+
+- Nieuwsbriefinschrijving (e-mailadres)
+- Contactformulier (naam, e-mailadres, uw bericht)
+- Aanmeldgegevens voor het betaprogramma via Microsoft Forms
 
 ### 3.2 Automatisch Verzamelde Informatie
 
-- Apparaatinformatie (apparaattype, besturingssysteem, unieke apparaat-identificaties)
-- Gebruiksgegevens (gebruikte app-functies, bestede tijd, interactiepatronen)
-- Locatiegegevens (als u toestemming verleent)
-- Loggegevens (IP-adres, toegangstijden, foutlogs)
+- Apparaatinformatie (apparaattype, besturingssysteem)
+- Locatiegegevens (alleen als u toestemming verleent, om uw voedselbos te positioneren en lokale weersinformatie te tonen)
+- Loggegevens (IP-adres, toegangstijden, foutlogs) voor het beheren en beveiligen van onze Diensten
 
-### 3.3 Informatie van Derden
+Wij gebruiken geen advertentie-identificaties (zoals de iOS IDFA of Android Advertising ID), device fingerprinting of tracking door derden.
 
-- Social media-accountinformatie (als u ervoor kiest social accounts te koppelen)
-- Weergegevens van externe diensten voor uw locatie
+### 3.3 Informatie van Inlogproviders
 
-## 4. Rechtsgrondslag voor Verwerking
+Wanneer u inlogt in de App, wordt de authenticatie afgehandeld door Microsoft Entra External ID. Afhankelijk van de door u gekozen inlogmethode (zoals e-mail of Inloggen met Apple) ontvangen wij de basisgegevens die nodig zijn om uw account aan te maken en te beveiligen, zoals uw e-mailadres.
 
-Wij verwerken uw persoonsgegevens op basis van:
+### 3.4 Informatie van Derden
 
-- **Toestemming**: Wanneer u expliciet akkoord gaat met verwerking (bijv. locatie tracking, marketingcommunicatie)
-- **Overeenkomst**: Om onze diensten te leveren en onze verplichtingen jegens u na te komen
-- **Gerechtvaardigd belang**: Om onze diensten te verbeteren, fraude te voorkomen en beveiliging te waarborgen
-- **Wettelijke verplichting**: Om te voldoen aan toepasselijke wetten en regelgeving
+- Weergegevens van externe diensten voor de locatie van uw voedselbos (wij versturen de locatie, niet uw identiteit)
 
-## 5. Hoe Wij Uw Informatie Gebruiken
+## 4. Doeleinden en Rechtsgrondslag voor Verwerking
 
-Wij gebruiken uw persoonsgegevens om:
+| Doel | Gegevens | Rechtsgrondslag (art. 6 AVG) |
+|------|----------|------------------------------|
+| Aanmaken en beheren van uw account, leveren van App-functionaliteit | Accountgegevens, profiel, inhoud | Overeenkomst (art. 6 lid 1 sub b) |
+| Positioneren van uw voedselbos en tonen van lokaal weer | Locatiegegevens | Toestemming (art. 6 lid 1 sub a) |
+| Versturen van de nieuwsbrief | E-mailadres | Toestemming (art. 6 lid 1 sub a) |
+| Beantwoorden van contactformulier- en supportverzoeken | Naam, e-mail, bericht | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
+| Uitvoeren van het betaprogramma | Aanmeldgegevens | Overeenkomst / precontractuele fase (art. 6 lid 1 sub b) |
+| Beveiligen van onze Diensten en voorkomen van fraude of misbruik | Loggegevens, accountgegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
+| Verbeteren van onze Diensten (foutlogs, diagnostiek) | Loggegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
+| Voldoen aan wettelijke verplichtingen | Voor zover vereist | Wettelijke verplichting (art. 6 lid 1 sub c) |
 
-- De App-functionaliteit te leveren en onderhouden
-- Uw gebruikersaccount aan te maken en beheren
-- Communityfuncties en sociale interacties mogelijk te maken
-- Gepersonaliseerde inhoud en aanbevelingen te bieden
-- Belangrijke meldingen over uw account en de service te verzenden
-- Te reageren op uw vragen en klantenondersteuning te bieden
-- Onze diensten te verbeteren door analyses en onderzoek
-- Beveiliging te waarborgen en fraude of misbruik te voorkomen
-- Te voldoen aan wettelijke verplichtingen
+Waar wij ons baseren op toestemming, kunt u deze op elk moment intrekken (zie artikel 9.7).
+
+## 5. Geautomatiseerde Besluitvorming
+
+Wij maken geen gebruik van geautomatiseerde besluitvorming of profilering die rechtsgevolgen voor u heeft of u anderszins in aanmerkelijke mate treft.
 
 ## 6. Gegevens Delen en Openbaarmaking
 
 Wij kunnen uw informatie delen met:
 
-### 6.1 Dienstverleners
+### 6.1 Dienstverleners (Verwerkers)
 
-Externe bedrijven die ons helpen onze diensten te exploiteren, inclusief:
+Externe bedrijven die ons helpen onze Diensten te exploiteren:
 
-- Microsoft Azure (cloud hosting en infrastructuur)
-- Analytics aanbieders
-- Klantenondersteuningstools
-- Betalingsverwerkers (indien van toepassing)
+- **Microsoft Azure** — cloudhosting en infrastructuur voor onze Diensten
+- **Microsoft Entra External ID** — inloggen en authenticatie
+- **Microsoft Forms** — aanmeldformulieren voor het betaprogramma op de Website
+
+Met onze verwerkers hebben wij verwerkersovereenkomsten gesloten zoals vereist door artikel 28 AVG.
 
 ### 6.2 Wettelijke Vereisten
 
@@ -88,14 +102,14 @@ Wij kunnen uw informatie openbaar maken wanneer vereist door de wet of om:
 
 In geval van fusie, overname of verkoop van activa, kunnen uw gegevens worden overgedragen aan de nieuwe entiteit.
 
-Wij verkopen uw persoonsgegevens niet aan derden voor marketingdoeleinden.
+Wij verkopen uw persoonsgegevens niet en delen deze niet met derden voor marketingdoeleinden.
 
 ## 7. Internationale Gegevensoverdrachten
 
-Onze diensten worden gehost op Microsoft Azure, wat kan inhouden dat uw gegevens buiten de Europese Economische Ruimte (EER) worden overgedragen. Wij zorgen voor adequate bescherming door:
+Onze Diensten worden gehost op Microsoft Azure binnen de Europese Unie. Waar Microsoft beperkte gegevens buiten de Europese Economische Ruimte (EER) verwerkt (bijvoorbeeld voor support of servicebeheer), zorgen wij voor adequate bescherming door:
 
-- Microsoft's naleving van AVG en Standaard Contractuele Clausules
-- Adequaatheidsbesluiten van de Europese Commissie
+- Microsoft's naleving van de AVG en Standaard Contractuele Clausules
+- Adequaatheidsbesluiten van de Europese Commissie (waaronder het EU-VS Data Privacy Framework, waar van toepassing)
 - Andere passende waarborgen zoals vereist door de wet
 
 ## 8. Gegevensbewaring
@@ -108,10 +122,11 @@ Wij bewaren uw persoonsgegevens zolang als nodig om:
 
 Specifieke bewaartermijnen:
 
-- Accountgegevens: Tot accountverwijdering plus 30 dagen
-- Gebruikslogs: 12 maanden
-- Ondersteuningscommunicatie: 3 jaar
-- Financiële gegevens (indien van toepassing): 7 jaar (Nederlandse wettelijke vereiste)
+- **Accountgegevens**: Wanneer u uw account verwijdert (dit kan in de App), worden uw account en persoonlijke identificatiegegevens binnen 30 dagen verwijderd. Bijdragen zoals plant- en oogstregistraties kunnen in geanonimiseerde vorm worden bewaard, niet langer aan u gekoppeld.
+- **Gebruiks- en foutlogs**: 12 maanden
+- **Support- en contactcommunicatie**: 3 jaar
+- **Nieuwsbriefinschrijving**: Tot u zich afmeldt
+- **Financiële gegevens (indien van toepassing)**: 7 jaar (Nederlandse wettelijke vereiste)
 
 ## 9. Uw Rechten Onder de AVG
 
@@ -127,7 +142,7 @@ Verzoek om correctie van onjuiste of onvolledige persoonsgegevens.
 
 ### 9.3 Wissing
 
-Verzoek om verwijdering van uw persoonsgegevens onder bepaalde omstandigheden.
+Verzoek om verwijdering van uw persoonsgegevens onder bepaalde omstandigheden. U kunt uw account direct in de App verwijderen via de accountinstellingen.
 
 ### 9.4 Beperking
 
@@ -143,7 +158,7 @@ Bezwaar maken tegen verwerking op basis van gerechtvaardigd belang of voor direc
 
 ### 9.7 Toestemming Intrekken
 
-Toestemming op elk moment intrekken waar verwerking gebaseerd is op toestemming.
+Toestemming op elk moment intrekken waar verwerking gebaseerd is op toestemming (bijvoorbeeld locatietoegang via uw apparaatinstellingen, of de nieuwsbrief via de afmeldlink).
 
 Om deze rechten uit te oefenen, neem contact met ons op via <hello@myfoodforest.nl>. Wij zullen binnen één maand na ontvangst van uw verzoek reageren.
 
@@ -154,157 +169,56 @@ Wij implementeren passende technische en organisatorische maatregelen om uw pers
 - Versleuteling van gegevens tijdens transport en opslag
 - Toegangscontroles en authenticatie
 - Regelmatige beveiligingsbeoordelingen
-- Personeelstraining over gegevensbescherming
 - Incidentresponseprocedures
 
 Hoewel wij ernaar streven uw gegevens te beschermen, is geen enkele methode van transmissie of opslag 100% veilig.
 
-## 11. Cookiebeleid
+## 11. Cookies en Vergelijkbare Technologieën
 
-### 11.1 Wat Zijn Cookies
+Dit hoofdstuk beschrijft ons gebruik van cookies en vergelijkbare technologieën op de Website en in de App, in overeenstemming met de AVG en artikel 11.7a van de Telecommunicatiewet.
 
-Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen wanneer u onze App of website gebruikt. Vergelijkbare technologieën omvatten web beacons, pixels en lokale opslag.
+### 11.1 Website
 
-### 11.2 Soorten Cookies Die Wij Gebruiken
+Onze Website gebruikt momenteel alleen strikt noodzakelijke technologieën om te functioneren en gebruikt **geen** analytics- of marketingcookies. Wij tonen geen cookiebanner omdat deze voor strikt noodzakelijke cookies niet vereist is.
 
-#### Strikt Noodzakelijke Cookies
+De aanmelding voor het betaprogramma op de Website gebruikt een ingesloten **Microsoft Forms**-formulier, dat eigen functionele cookies kan plaatsen. Zie de [privacyverklaring van Microsoft](https://privacy.microsoft.com) voor details.
 
-Deze cookies zijn essentieel voor de goede werking van de App en kunnen niet worden uitgeschakeld:
+Links naar social media (Instagram, LinkedIn, Facebook) op de Website zijn gewone links; er worden geen socialemediatrackers geladen op onze pagina's.
 
-- Authenticatietokens om u ingelogd te houden
-- Beveiligingscookies om te beschermen tegen fraude
-- Load balancing cookies voor prestaties
-- Sessiebeheer cookies
+### 11.2 App
 
-**Rechtsgrondslag**: Gerechtvaardigd belang (essentieel voor dienstverlening)
-**Bewaring**: Sessie-gebaseerd of tot uitloggen
+De App slaat authenticatietokens en uw instellingen op uw apparaat op. Deze zijn strikt noodzakelijk voor de werking van de App (ingelogd blijven, uw voorkeuren onthouden) en worden niet gebruikt om u te volgen.
 
-#### Functionele Cookies
+De App gebruikt **geen**:
 
-Deze cookies verbeteren uw ervaring door uw voorkeuren te onthouden:
+- Advertentie-identificaties (iOS IDFA, Android Advertising ID)
+- Analytics- of advertentie-SDK's van derden
+- Device fingerprinting
 
-- Taal- en regio-instellingen
-- Weergavevoorkeuren (donkere/lichte modus)
-- Toegankelijkheidsinstellingen
-- Recent bekeken inhoud
+**Rechtsgrondslag**: Strikt noodzakelijke opslag is vrijgesteld van het toestemmingsvereiste; wij baseren ons op ons gerechtvaardigd belang bij een veilige, goed functionerende dienst.
 
-**Rechtsgrondslag**: Toestemming
-**Bewaring**: Tot 12 maanden
+### 11.3 Wijzigingen in Ons Cookiegebruik
 
-#### Analytics Cookies
+Als wij in de toekomst analytics of andere niet-essentiële cookies introduceren, werken wij deze verklaring bij en vragen wij eerst uw toestemming, via een toestemmingsbanner op de Website of een melding in de App.
 
-Deze cookies helpen ons begrijpen hoe u onze App gebruikt:
+## 12. Privacy van Kinderen
 
-- Paginaweergaven en gebruikersinteracties
-- Functieverbruikstatistieken
-- Prestatiemetrieken
-- Fout tracking en debugging
-
-**Rechtsgrondslag**: Toestemming
-**Bewaring**: Tot 24 maanden
-
-#### Marketing/Advertentie Cookies (indien van toepassing)
-
-Deze cookies worden gebruikt om relevante advertenties te leveren:
-
-- Tracking van gebruikersinteresses en gedrag
-- Meting van advertentiecampagne-effectiviteit
-- Cross-platform advertentie-identificaties
-
-**Rechtsgrondslag**: Toestemming
-**Bewaring**: Tot 12 maanden
-
-### 11.3 Cookies van Derden
-
-Wij kunnen diensten van derden gebruiken die hun eigen cookies plaatsen:
-
-| Dienst | Doel | Type | Privacybeleid |
-|---------|---------|------|----------------|
-| Microsoft Azure | Hosting en analytics | Functioneel/Analytics | [Microsoft Privacybeleid](https://privacy.microsoft.com) |
-| Google Analytics (indien gebruikt) | Gebruiksanalytics | Analytics | [Google Privacybeleid](https://policies.google.com/privacy) |
-
-### 11.4 Mobiele App Tracking
-
-Onze mobiele app kan gebruikmaken van:
-
-- **Advertentie-identificaties**: iOS IDFA, Android Advertising ID
-- **App Analytics**: Crash reporting, prestatiemetrieken
-- **Push Notification Tokens**: Voor het verzenden van meldingen
-- **Device Fingerprinting**: Voor beveiliging en fraudepreventie
-
-### 11.5 Uw Cookie Voorkeuren Beheren
-
-#### Webbrowser
-
-U kunt cookies beheren via uw browserinstellingen:
-
-- **Chrome**: Instellingen > Privacy en beveiliging > Cookies
-- **Firefox**: Instellingen > Privacy & Beveiliging > Cookies en sitegegevens
-- **Safari**: Voorkeuren > Privacy > Cookies en websitegegevens
-- **Edge**: Instellingen > Cookies en sitemachtigingen
-
-#### Mobiele App
-
-U kunt tracking voorkeuren beheren via:
-
-- **iOS**: Instellingen > Privacy & Beveiliging > Tracking
-- **Android**: Instellingen > Google > Advertenties > Opt-out van advertentiepersonalisatie
-- **In-App Instellingen**: Privacy & Cookie Voorkeuren
-
-#### Onze Cookie Toestemmingsmanager
-
-Wanneer u onze website of app voor het eerst bezoekt, ziet u een cookie toestemmingsbanner waar u kunt:
-
-- Alle cookies accepteren
-- Niet-essentiële cookies afwijzen
-- Uw voorkeuren per categorie aanpassen
-- Gedetailleerde informatie over elk cookietype bekijken
-
-U kunt uw voorkeuren op elk moment wijzigen via de "Cookie Instellingen" link in onze app of website footer.
-
-### 11.6 Gevolgen van Het Uitschakelen van Cookies
-
-Als u bepaalde cookies uitschakelt:
-
-- **Strikt Noodzakelijk**: De App werkt mogelijk niet goed
-- **Functioneel**: U verliest mogelijk gepersonaliseerde instellingen en voorkeuren
-- **Analytics**: Heeft geen invloed op functionaliteit, maar wij kunnen onze diensten niet verbeteren op basis van gebruiksgegevens
-- **Marketing**: U ziet mogelijk nog steeds advertenties, maar deze zijn niet gepersonaliseerd
-
-### 11.7 Cookies en Kinderen
-
-Wij plaatsen niet bewust cookies of verzamelen gegevens van kinderen onder de 16 jaar. Als u onder de 16 bent, gebruik dan onze diensten niet en verstrek geen persoonlijke informatie.
-
-### 11.8 Updates van Cookiebeleid
-
-Wij kunnen dit cookiebeleid bijwerken om veranderingen in technologie, wetgeving of onze praktijken te reflecteren. Wij zullen u op de hoogte stellen van significante wijzigingen via:
-
-- Bijgewerkte toestemmingsbanners
-- In-app meldingen
-- E-mailmeldingen (voor geregistreerde gebruikers)
-
-### 11.9 Contact Over Cookies
-
-Voor vragen over ons gebruik van cookies, neem contact met ons op via:
-E-mail: <hello@myfoodforest.nl>
-Onderwerp: Cookiebeleid Vraag
-
-## 12. Kinderen Privacy
-
-Onze App is niet bedoeld voor kinderen onder de 16. Wij verzamelen niet bewust persoonsgegevens van kinderen onder de 16. Als wij ons bewust worden van dergelijke gegevensverzameling, zullen wij deze prompt verwijderen.
+Onze Diensten zijn niet bedoeld voor kinderen onder de 16. Wij verzamelen niet bewust persoonsgegevens van kinderen onder de 16. Als wij ons bewust worden van dergelijke gegevensverzameling, zullen wij deze direct verwijderen.
 
 ## 13. Marketingcommunicatie
 
-Met uw toestemming kunnen wij u marketingcommunicatie sturen over onze diensten. U kunt zich op elk moment afmelden door:
+Met uw toestemming kunnen wij u marketingcommunicatie sturen over onze diensten, zoals onze nieuwsbrief. U kunt zich op elk moment afmelden door:
 
 - De afmeldlink in e-mails te gebruiken
 - Meldingsinstellingen in de App aan te passen
 - Direct contact met ons op te nemen
 
-## 14. Functionaris voor Gegevensbescherming
+## 14. Contactpunt Privacy
 
-Voor vragen over gegevensbescherming kunt u contact opnemen met onze Functionaris voor Gegevensbescherming via:
-E-mail: <hello@myfoodforest.nl>
+Wij hebben geen formele Functionaris voor Gegevensbescherming aangewezen, omdat dit voor onze organisatie niet vereist is. Voor alle vragen over gegevensbescherming kunt u contact met ons opnemen via:
+
+E-mail: <hello@myfoodforest.nl>  
+Onderwerp: Privacy
 
 ## 15. Toezichthouder
 
@@ -316,23 +230,21 @@ Postbus 93374
 Nederland  
 Website: autoriteitpersoonsgegevens.nl
 
-## 16. Wijzigingen in Dit Beleid
+## 16. Wijzigingen in Deze Verklaring
 
-Wij kunnen dit privacybeleid van tijd tot tijd bijwerken. Wij zullen u op de hoogte stellen van significante wijzigingen via:
+Wij kunnen deze privacyverklaring van tijd tot tijd bijwerken. Wij zullen u op de hoogte stellen van significante wijzigingen via:
 
 - In-app meldingen
 - E-mailmeldingen
-- Het plaatsen van het bijgewerkte beleid op onze website
-
-Voortgezet gebruik van onze diensten na wijzigingen betekent aanvaarding van het bijgewerkte beleid.
+- Het plaatsen van de bijgewerkte verklaring op onze Website
 
 ## 17. Contact
 
-Voor vragen over dit privacybeleid of onze gegevenspraktijken, neem contact met ons op:
+Voor vragen over deze privacyverklaring of onze gegevenspraktijken, neem contact met ons op:
 
 **My Food Forest B.V.**  
 E-mail: <hello@myfoodforest.nl>
 
 ---
 
-*Dit privacybeleid is beschikbaar in het [Engels](./PRIVACY_EN.md).*
+*Deze privacyverklaring is beschikbaar in het [Engels](./PRIVACY_EN.md).*
