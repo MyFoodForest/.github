@@ -1,19 +1,28 @@
 # Terms and Conditions
 
 **My Food Forest B.V.**  
-Last updated: May 27, 2025
+Last updated: June 4, 2026
 
 ## 1. Introduction and Acceptance
 
-Welcome to My Food Forest, a mobile application and web platform operated by My Food Forest B.V., a company incorporated under Dutch law with its registered office in the Netherlands.
+Welcome to My Food Forest, a platform operated by My Food Forest B.V., a company incorporated under Dutch law with its registered office in Fluitenberg, the Netherlands.
 
-By downloading, accessing, or using our application ("App") and related services ("Services"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, do not use our Services.
+These Terms and Conditions ("Terms") apply to:
+
+- our mobile application (the "App"), and
+- our website at [www.myfoodforest.nl](https://www.myfoodforest.nl) (the "Website"),
+
+together referred to as the "Services".
+
+By downloading, accessing, or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, do not use our Services.
+
+If you are a consumer, nothing in these Terms limits or excludes any rights you have under mandatory Dutch or EU consumer law. Where these Terms conflict with those rights, your statutory rights prevail.
 
 ## 2. Company Information
 
 **My Food Forest B.V.**  
-Registered Address: Westenburg 53  
-3405 AS Benschop  
+Registered Address: Domeinweg 11  
+7931 TJ Fluitenberg  
 The Netherlands  
 Chamber of Commerce (KvK) number: 96517557  
 VAT number: NL867644709B01  
@@ -22,10 +31,12 @@ Email: <hello@myfoodforest.nl>
 ## 3. Definitions
 
 - **"Account"**: Your registered user profile on our platform
+- **"App"**: Our mobile application for iOS and Android
+- **"Website"**: Our website at www.myfoodforest.nl, including the blog, newsletter, and contact features
 - **"Content"**: All text, images, videos, data, and other materials posted or transmitted through the Services
 - **"User Content"**: Content that you create, upload, or share through the Services
 - **"Food Forest"**: Sustainable agricultural ecosystems mimicking natural forests
-- **"Platform"**: Our mobile app, website, and related digital services
+- **"Services"**: The App, the Website, and related digital services
 
 ## 4. Eligibility and Account Registration
 
@@ -36,6 +47,8 @@ Email: <hello@myfoodforest.nl>
 - We do not knowingly collect data from children under 16
 
 ### 4.2 Account Creation
+
+An Account is required for the App. The Website can be used without an Account.
 
 - You must provide accurate and complete information
 - You are responsible for maintaining account security
@@ -55,8 +68,8 @@ My Food Forest provides:
 - Plant databases and growing guides
 - Weather integration and seasonal planning tools
 - Photo sharing and progress tracking
-- Educational content about sustainable agriculture
-- Marketplace features (if applicable)
+- Educational content about sustainable agriculture, including the blog on our Website
+- Newsletter and contact options via the Website
 
 ## 6. User Responsibilities and Conduct
 
@@ -97,11 +110,12 @@ When interacting with other users:
 
 ### 7.1 Your Content Rights
 
-You retain ownership of your User Content but grant us a worldwide, non-exclusive, royalty-free license to:
+You retain ownership of your User Content. You grant us a non-exclusive, royalty-free license, limited to what is needed to operate the Services, to:
 
-- Display, reproduce, and distribute your Content through our Services
-- Create derivative works for service improvement
-- Use your Content for promotional purposes (with attribution)
+- Host, display, reproduce, and distribute your User Content within the Services
+- Make technical adaptations needed to provide the Services (such as thumbnails, previews, and format conversions)
+
+We will only use your User Content for marketing or promotional purposes with your separate, prior consent. This license ends when you delete the relevant Content or your Account, except for Content that has been anonymized or that we must retain to comply with legal obligations.
 
 ### 7.2 Content Responsibility
 
@@ -121,24 +135,23 @@ We reserve the right to remove any Content that violates these Terms without pri
 
 ## 8. Privacy and Data Protection
 
-Your privacy is important to us. Please review our Privacy Policy, which is incorporated into these Terms by reference. By using our Services, you consent to our data practices as described in the Privacy Policy.
+We process personal data in accordance with our [Privacy Policy](./PRIVACY_EN.md), which explains what data we collect, why, and what rights you have. The Privacy Policy is an information notice as required by the GDPR; where we rely on your consent for specific processing, we will ask for it separately.
 
-## 9. Payments and Subscriptions (if applicable)
+## 9. Payments and Subscriptions
 
-### 9.1 Pricing
+### 9.1 Current Pricing
 
-Current pricing for premium features is available in the App. Prices are in Euros and include applicable Dutch VAT.
+Our Services are currently offered free of charge.
 
-### 9.2 Payment Terms
+### 9.2 Future Paid Features
 
-- Payments are processed securely through third-party providers
-- Subscriptions renew automatically unless canceled
-- Refunds are subject to our refund policy
-- Price changes will be communicated 30 days in advance
+If we introduce paid features or subscriptions:
 
-### 9.3 Free Trial (if offered)
-
-Free trials may be offered for premium features. Trials convert to paid subscriptions unless canceled before the trial period ends.
+- Pricing will be displayed in the App before purchase, in Euros and including applicable Dutch VAT
+- Payments will be processed securely through third-party providers
+- Subscriptions will renew automatically unless canceled, and we will remind you of this before renewal
+- Price changes will be communicated at least 30 days in advance, and you may cancel before they take effect
+- Refunds and the right of withdrawal are governed by Section 16
 
 ## 10. Service Availability and Modifications
 
@@ -157,7 +170,7 @@ We reserve the right to modify, update, or discontinue features at any time with
 
 ## 11. Third-Party Services and Links
 
-Our Services may integrate with or link to third-party services (weather APIs, plant databases, social platforms). We are not responsible for third-party content, privacy practices, or service availability.
+Our Services may integrate with or link to third-party services (such as weather data providers, sign-in providers, and social media platforms). We are not responsible for third-party content, privacy practices, or service availability.
 
 ## 12. Disclaimers and Limitations
 
@@ -171,29 +184,28 @@ Our Services may integrate with or link to third-party services (weather APIs, p
 
 ### 12.2 Service Disclaimers
 
-Our Services are provided "as is" without warranties of any kind. We disclaim all warranties, including:
+We provide our Services with reasonable care and skill. However, we do not guarantee:
 
-- Merchantability and fitness for a particular purpose
-- Accuracy or completeness of information
-- Uninterrupted or error-free operation
-- Security or virus-free operation
+- That information in the Services is always accurate or complete
+- Uninterrupted or error-free operation of the Services
+
+If you are a consumer, this section does not affect your statutory conformity rights for digital content and digital services under Dutch law (Book 7 of the Dutch Civil Code, implementing Directive (EU) 2019/770), as described in Section 16.
 
 ### 12.3 Limitation of Liability
 
-To the maximum extent permitted by Dutch law, our liability is limited to:
+To the maximum extent permitted by Dutch law, our liability is limited to direct damages, up to €100 or the fees you paid us in the last 12 months, whichever is higher.
 
-- Direct damages only (no consequential, indirect, or punitive damages)
-- Maximum amount of €100 or fees paid in the last 12 months, whichever is higher
-- Exclusions for gross negligence or intentional misconduct
+This limitation does not apply to:
+
+- Damage caused by our intent or gross negligence
+- Death or personal injury caused by us
+- Any liability that cannot be limited or excluded under mandatory law
+
+Nothing in these Terms limits your mandatory statutory rights as a consumer.
 
 ## 13. Indemnification
 
-You agree to indemnify and hold us harmless from claims, damages, and expenses arising from:
-
-- Your use of our Services
-- Your User Content
-- Your violation of these Terms
-- Your violation of third-party rights
+If a third party brings a claim against us because your User Content or your use of the Services was unlawful or infringed that third party's rights, you will compensate us for the resulting damages and reasonable costs, except to the extent the claim is attributable to us. This section applies only to the extent permitted by mandatory consumer law.
 
 ## 14. Termination
 
@@ -207,26 +219,28 @@ We may suspend or terminate your account for:
 
 - Violation of these Terms
 - Fraudulent or illegal activity
-- Extended inactivity
-- Service discontinuation
+- Inactivity of more than 24 consecutive months, in which case we will notify you at least 30 days in advance so you can keep your account by signing in
+- Discontinuation of the Services, with reasonable prior notice
 
 ### 14.3 Effect of Termination
 
 Upon termination:
 
 - Your access to Services will cease
-- Your data may be deleted after a reasonable period
+- Your data will be handled as described in our Privacy Policy
 - Certain provisions of these Terms will survive termination
 
 ## 15. Governing Law and Dispute Resolution
 
 ### 15.1 Governing Law
 
-These Terms are governed by Dutch law, excluding conflict of law principles.
+These Terms are governed by Dutch law. If you are a consumer, you also enjoy the protection of any mandatory provisions of the law of your country of residence.
 
 ### 15.2 Jurisdiction
 
-Any disputes will be subject to the exclusive jurisdiction of the courts of the Netherlands, specifically the competent court in Utrecht.
+Disputes will be submitted to the competent Dutch court, being the court of the district in which My Food Forest B.V. has its registered office (Rechtbank Noord-Nederland), unless mandatory law designates another court.
+
+If you are a consumer, you may also bring the dispute before the court that is competent under statutory rules. If we invoke this jurisdiction clause against you, you have one month from the moment we do so in writing to choose the court that is competent under statutory rules.
 
 ### 15.3 Alternative Dispute Resolution
 
@@ -240,7 +254,7 @@ Before pursuing legal action, we encourage resolution through:
 
 ### 16.1 Right of Withdrawal
 
-EU consumers have a 14-day right of withdrawal for digital services, which may be waived if service provision begins before the withdrawal period ends.
+If you purchase a paid digital service from us as a consumer, you have a 14-day right of withdrawal. For digital content or services delivered immediately, you only lose this right if you expressly consent to immediate performance and acknowledge that you thereby lose your right of withdrawal (Article 6:230p of the Dutch Civil Code). As long as our Services are free of charge, no right of withdrawal applies because there is no purchase.
 
 ### 16.2 Conformity Rights
 
@@ -266,21 +280,21 @@ We may assign these Terms or our rights hereunder. You may not assign your right
 
 ### 20.1 Modification Process
 
-We may update these Terms from time to time. We will notify users of material changes through:
+We may update these Terms from time to time. For material changes, we will notify you at least 30 days before they take effect through:
 
 - In-app notifications
 - Email notifications
 - Website announcements
 
-### 20.2 Acceptance of Changes
+### 20.2 Your Choices
 
-Continued use of our Services after changes constitutes acceptance of the updated Terms.
+If you do not agree to a material change, you may terminate your account free of charge before the change takes effect. Continued use of our Services after the effective date of a change of which you were notified constitutes acceptance of the updated Terms.
 
 ## 21. Contact Information
 
 For questions about these Terms or our Services:
 
-**My Food Forest B.V.**
+**My Food Forest B.V.**  
 Email: <hello@myfoodforest.nl>
 
 ## 22. Acknowledgment
@@ -291,5 +305,5 @@ By using our Services, you acknowledge that you have read, understood, and agree
 
 *These Terms and Conditions are available in [Dutch](./TERMSANDCONDITIONS_NL.md).*
 
-**Document Version**: 1.0  
-**Effective Date**:May 27, 2025
+**Document Version**: 1.1  
+**Effective Date**: June 4, 2026

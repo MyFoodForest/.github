@@ -1,31 +1,42 @@
 # Algemene Voorwaarden
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 27 mei 2025
+Laatst bijgewerkt: 4 juni 2026
 
 ## 1. Inleiding en Aanvaarding
 
-Welkom bij My Food Forest, een mobiele applicatie en webplatform geëxploiteerd door My Food Forest B.V., een vennootschap opgericht naar Nederlands recht met haar statutaire zetel in Nederland.
+Welkom bij My Food Forest, een platform geëxploiteerd door My Food Forest B.V., een vennootschap opgericht naar Nederlands recht met haar statutaire zetel in Fluitenberg, Nederland.
 
-Door onze applicatie ("App") en gerelateerde diensten ("Diensten") te downloaden, te gebruiken of toegang te krijgen, gaat u akkoord met deze Algemene Voorwaarden ("Voorwaarden"). Als u niet akkoord gaat met deze Voorwaarden, gebruik dan onze Diensten niet.
+Deze Algemene Voorwaarden ("Voorwaarden") zijn van toepassing op:
+
+- onze mobiele applicatie (de "App"), en
+- onze website op [www.myfoodforest.nl](https://www.myfoodforest.nl) (de "Website"),
+
+samen aangeduid als de "Diensten".
+
+Door onze Diensten te downloaden, te gebruiken of toegang te krijgen, gaat u akkoord met deze Voorwaarden. Als u niet akkoord gaat met deze Voorwaarden, gebruik dan onze Diensten niet.
+
+Als u consument bent, beperken of sluiten deze Voorwaarden geen rechten uit die u heeft op grond van dwingend Nederlands of EU-consumentenrecht. Waar deze Voorwaarden strijdig zijn met die rechten, gaan uw wettelijke rechten voor.
 
 ## 2. Bedrijfsinformatie
 
 **My Food Forest B.V.**  
-Geregistreerd adres: Westenburg 53  
-3405 AS Benschop  
+Geregistreerd adres: Domeinweg 11  
+7931 TJ Fluitenberg  
 Nederland  
 Kamer van Koophandel (KvK) nummer: 96517557  
-BTW-nummer: NL867644709B01
+BTW-nummer: NL867644709B01  
 E-mail: <hello@myfoodforest.nl>  
 
 ## 3. Definities
 
 - **"Account"**: Uw geregistreerde gebruikersprofiel op ons platform
+- **"App"**: Onze mobiele applicatie voor iOS en Android
+- **"Website"**: Onze website op www.myfoodforest.nl, inclusief de blog, nieuwsbrief en contactmogelijkheden
 - **"Inhoud"**: Alle tekst, afbeeldingen, video's, gegevens en andere materialen geplaatst of verzonden via de Diensten
 - **"Gebruikersinhoud"**: Inhoud die u creëert, uploadt of deelt via de Diensten
 - **"Voedselbos"**: Duurzame landbouwecosystemen die natuurlijke bossen nabootsen
-- **"Platform"**: Onze mobiele app, website en gerelateerde digitale diensten
+- **"Diensten"**: De App, de Website en gerelateerde digitale diensten
 
 ## 4. Geschiktheid en Accountregistratie
 
@@ -36,6 +47,8 @@ E-mail: <hello@myfoodforest.nl>
 - Wij verzamelen niet bewust gegevens van kinderen onder de 16
 
 ### 4.2 Account Aanmaken
+
+Voor de App is een Account vereist. De Website kan zonder Account worden gebruikt.
 
 - U moet accurate en volledige informatie verstrekken
 - U bent verantwoordelijk voor het onderhouden van accountbeveiliging
@@ -55,8 +68,8 @@ My Food Forest biedt:
 - Plantendatabases en teeltgidsen
 - Weerintegratie en seizoensplanningstools
 - Foto's delen en voortgang bijhouden
-- Educatieve inhoud over duurzame landbouw
-- Marktplaatsfuncties (indien van toepassing)
+- Educatieve inhoud over duurzame landbouw, waaronder de blog op onze Website
+- Nieuwsbrief en contactmogelijkheden via de Website
 
 ## 6. Gebruikersverantwoordelijkheden en Gedrag
 
@@ -97,11 +110,12 @@ Bij interactie met andere gebruikers:
 
 ### 7.1 Uw Inhoudsrechten
 
-U behoudt eigendom van uw Gebruikersinhoud maar verleent ons een wereldwijde, niet-exclusieve, royalty-vrije licentie om:
+U behoudt eigendom van uw Gebruikersinhoud. U verleent ons een niet-exclusieve, royalty-vrije licentie, beperkt tot wat nodig is om de Diensten te exploiteren, om:
 
-- Uw Inhoud weer te geven, te reproduceren en te distribueren via onze Diensten
-- Afgeleide werken te creëren voor serviceverbetering
-- Uw Inhoud te gebruiken voor promotiedoeleinden (met naamsvermelding)
+- Uw Gebruikersinhoud te hosten, weer te geven, te reproduceren en te distribueren binnen de Diensten
+- Technische aanpassingen te maken die nodig zijn om de Diensten te leveren (zoals miniaturen, voorvertoningen en formaatconversies)
+
+Wij gebruiken uw Gebruikersinhoud alleen voor marketing- of promotiedoeleinden met uw afzonderlijke, voorafgaande toestemming. Deze licentie eindigt wanneer u de betreffende Inhoud of uw Account verwijdert, met uitzondering van Inhoud die is geanonimiseerd of die wij moeten bewaren om aan wettelijke verplichtingen te voldoen.
 
 ### 7.2 Inhoudverantwoordelijkheid
 
@@ -121,24 +135,23 @@ Wij behouden ons het recht voor om Inhoud die deze Voorwaarden schendt zonder vo
 
 ## 8. Privacy en Gegevensbescherming
 
-Uw privacy is belangrijk voor ons. Bekijk ons Privacybeleid, dat door verwijzing in deze Voorwaarden is opgenomen. Door onze Diensten te gebruiken, stemt u in met onze gegevenspraktijken zoals beschreven in het Privacybeleid.
+Wij verwerken persoonsgegevens in overeenstemming met onze [Privacyverklaring](./PRIVACY_NL.md), waarin staat welke gegevens wij verzamelen, waarom, en welke rechten u heeft. De Privacyverklaring is een informatiedocument zoals vereist door de AVG; waar wij ons voor specifieke verwerkingen op uw toestemming baseren, vragen wij die afzonderlijk.
 
-## 9. Betalingen en Abonnementen (indien van toepassing)
+## 9. Betalingen en Abonnementen
 
-### 9.1 Prijzen
+### 9.1 Huidige Prijzen
 
-Huidige prijzen voor premiumfuncties zijn beschikbaar in de App. Prijzen zijn in Euro's en zijn inclusief toepasselijke Nederlandse BTW.
+Onze Diensten worden momenteel gratis aangeboden.
 
-### 9.2 Betalingsvoorwaarden
+### 9.2 Toekomstige Betaalde Functies
 
-- Betalingen worden veilig verwerkt via externe aanbieders
-- Abonnementen verlengen automatisch tenzij opgezegd
-- Terugbetalingen zijn onderworpen aan ons terugbetalingsbeleid
-- Prijswijzigingen worden 30 dagen van tevoren gecommuniceerd
+Als wij betaalde functies of abonnementen introduceren:
 
-### 9.3 Gratis Proefperiode (indien aangeboden)
-
-Gratis proefperiodes kunnen worden aangeboden voor premiumfuncties. Proefperiodes worden omgezet naar betaalde abonnementen tenzij opgezegd voor het einde van de proefperiode.
+- Worden prijzen vóór aankoop in de App getoond, in Euro's en inclusief toepasselijke Nederlandse BTW
+- Worden betalingen veilig verwerkt via externe aanbieders
+- Verlengen abonnementen automatisch tenzij opgezegd, en herinneren wij u hieraan vóór verlenging
+- Worden prijswijzigingen minimaal 30 dagen van tevoren gecommuniceerd, en kunt u opzeggen voordat deze ingaan
+- Gelden voor terugbetalingen en het herroepingsrecht de bepalingen van artikel 16
 
 ## 10. Servicebeschikbaarheid en Wijzigingen
 
@@ -157,7 +170,7 @@ Wij behouden ons het recht voor om functies op elk moment te wijzigen, bij te we
 
 ## 11. Diensten en Links van Derden
 
-Onze Diensten kunnen integreren met of linken naar diensten van derden (weer-API's, plantendatabases, sociale platforms). Wij zijn niet verantwoordelijk voor inhoud van derden, privacypraktijken of servicebeschikbaarheid.
+Onze Diensten kunnen integreren met of linken naar diensten van derden (zoals weergegevensaanbieders, inlogproviders en socialemediaplatforms). Wij zijn niet verantwoordelijk voor inhoud van derden, privacypraktijken of servicebeschikbaarheid.
 
 ## 12. Disclaimers en Beperkingen
 
@@ -171,29 +184,28 @@ Onze Diensten kunnen integreren met of linken naar diensten van derden (weer-API
 
 ### 12.2 Service Disclaimers
 
-Onze Diensten worden geleverd "zoals ze zijn" zonder garanties van welke aard dan ook. Wij wijzen alle garanties af, inclusief:
+Wij leveren onze Diensten met redelijke zorg en vakmanschap. Wij garanderen echter niet:
 
-- Verkoopbaarheid en geschiktheid voor een bepaald doel
-- Nauwkeurigheid of volledigheid van informatie
-- Ononderbroken of foutloze werking
-- Beveiliging of virusvrije werking
+- Dat informatie in de Diensten altijd accuraat of volledig is
+- Een ononderbroken of foutloze werking van de Diensten
+
+Als u consument bent, doet dit artikel geen afbreuk aan uw wettelijke conformiteitsrechten voor digitale inhoud en digitale diensten naar Nederlands recht (Boek 7 van het Burgerlijk Wetboek, ter implementatie van Richtlijn (EU) 2019/770), zoals beschreven in artikel 16.
 
 ### 12.3 Beperking van Aansprakelijkheid
 
-Voor zover maximaal toegestaan door Nederlands recht, is onze aansprakelijkheid beperkt tot:
+Voor zover maximaal toegestaan door Nederlands recht, is onze aansprakelijkheid beperkt tot directe schade, tot een maximum van €100 of de vergoedingen die u ons in de laatste 12 maanden heeft betaald, indien dat hoger is.
 
-- Alleen directe schade (geen gevolgschade, indirecte of punitieve schade)
-- Maximum bedrag van €100 of kosten betaald in de laatste 12 maanden, wat hoger is
-- Uitsluitingen voor grove nalatigheid of opzettelijk wangedrag
+Deze beperking geldt niet voor:
+
+- Schade veroorzaakt door onze opzet of grove nalatigheid
+- Overlijden of lichamelijk letsel veroorzaakt door ons
+- Aansprakelijkheid die op grond van dwingend recht niet kan worden beperkt of uitgesloten
+
+Niets in deze Voorwaarden beperkt uw dwingende wettelijke rechten als consument.
 
 ## 13. Vrijwaring
 
-U stemt ermee in ons schadeloos te stellen en te vrijwaren van claims, schade en kosten voortvloeiend uit:
-
-- Uw gebruik van onze Diensten
-- Uw Gebruikersinhoud
-- Uw schending van deze Voorwaarden
-- Uw schending van rechten van derden
+Als een derde een vordering tegen ons instelt omdat uw Gebruikersinhoud of uw gebruik van de Diensten onrechtmatig was of inbreuk maakte op de rechten van die derde, vergoedt u de daaruit voortvloeiende schade en redelijke kosten, behalve voor zover de vordering aan ons is toe te rekenen. Dit artikel geldt alleen voor zover toegestaan door dwingend consumentenrecht.
 
 ## 14. Beëindiging
 
@@ -207,26 +219,28 @@ Wij kunnen uw account opschorten of beëindigen wegens:
 
 - Schending van deze Voorwaarden
 - Frauduleuze of illegale activiteit
-- Langdurige inactiviteit
-- Servicestaking
+- Inactiviteit van meer dan 24 aaneengesloten maanden, in welk geval wij u minimaal 30 dagen van tevoren informeren zodat u uw account kunt behouden door in te loggen
+- Stopzetting van de Diensten, met redelijke voorafgaande kennisgeving
 
 ### 14.3 Gevolg van Beëindiging
 
 Bij beëindiging:
 
 - Zal uw toegang tot Diensten ophouden
-- Kunnen uw gegevens na een redelijke periode worden verwijderd
+- Worden uw gegevens behandeld zoals beschreven in onze Privacyverklaring
 - Zullen bepaalde bepalingen van deze Voorwaarden de beëindiging overleven
 
 ## 15. Toepasselijk Recht en Geschillenbeslechting
 
 ### 15.1 Toepasselijk Recht
 
-Deze Voorwaarden worden beheerst door Nederlands recht, exclusief internationaal privaatrecht.
+Deze Voorwaarden worden beheerst door Nederlands recht. Als u consument bent, geniet u daarnaast de bescherming van dwingende bepalingen van het recht van uw woonland.
 
 ### 15.2 Bevoegdheid
 
-Eventuele geschillen vallen onder de exclusieve bevoegdheid van de rechtbanken van Nederland, specifiek de bevoegde rechtbank in Utrecht.
+Geschillen worden voorgelegd aan de bevoegde Nederlandse rechter, zijnde de rechtbank van het arrondissement waarin My Food Forest B.V. haar statutaire zetel heeft (Rechtbank Noord-Nederland), tenzij dwingend recht een andere rechter aanwijst.
+
+Als u consument bent, kunt u het geschil ook voorleggen aan de volgens de wet bevoegde rechter. Als wij ons tegenover u op dit forumkeuzebeding beroepen, heeft u één maand vanaf het moment waarop wij dat schriftelijk doen om te kiezen voor de volgens de wet bevoegde rechter.
 
 ### 15.3 Alternatieve Geschillenbeslechting
 
@@ -240,7 +254,7 @@ Voordat juridische stappen worden ondernomen, moedigen wij oplossing aan via:
 
 ### 16.1 Herroepingsrecht
 
-EU-consumenten hebben een 14-daags herroepingsrecht voor digitale diensten, dat kan worden weggenomen als de dienstverlening begint voor het einde van de herroepingsperiode.
+Als u als consument een betaalde digitale dienst bij ons afneemt, heeft u een herroepingsrecht van 14 dagen. Voor digitale inhoud of diensten die direct worden geleverd, verliest u dit recht alleen als u uitdrukkelijk instemt met directe uitvoering en erkent dat u daarmee uw herroepingsrecht verliest (artikel 6:230p BW). Zolang onze Diensten gratis zijn, geldt er geen herroepingsrecht omdat er geen sprake is van een aankoop.
 
 ### 16.2 Conformiteitsrechten
 
@@ -266,15 +280,15 @@ Wij kunnen deze Voorwaarden of onze rechten hieronder overdragen. U kunt uw rech
 
 ### 20.1 Wijzigingsproces
 
-Wij kunnen deze Voorwaarden van tijd tot tijd bijwerken. Wij zullen gebruikers op de hoogte stellen van materiële wijzigingen via:
+Wij kunnen deze Voorwaarden van tijd tot tijd bijwerken. Bij materiële wijzigingen informeren wij u minimaal 30 dagen voordat deze ingaan via:
 
 - In-app meldingen
 - E-mailmeldingen
 - Website-aankondigingen
 
-### 20.2 Aanvaarding van Wijzigingen
+### 20.2 Uw Keuzes
 
-Voortgezet gebruik van onze Diensten na wijzigingen betekent aanvaarding van de bijgewerkte Voorwaarden.
+Als u niet akkoord gaat met een materiële wijziging, kunt u uw account kosteloos beëindigen voordat de wijziging ingaat. Voortgezet gebruik van onze Diensten na de ingangsdatum van een wijziging waarover u bent geïnformeerd, betekent aanvaarding van de bijgewerkte Voorwaarden.
 
 ## 21. Contactinformatie
 
@@ -291,5 +305,5 @@ Door onze Diensten te gebruiken, erkent u dat u deze Algemene Voorwaarden hebt g
 
 *Deze Algemene Voorwaarden zijn beschikbaar in het [Engels](./TERMSANDCONDITIONS_EN.md).*
 
-**Documentversie**: 1.0  
-**Ingangsdatum**: 27 mei 2025
+**Documentversie**: 1.1  
+**Ingangsdatum**: 4 juni 2026
