@@ -59,4 +59,4 @@ A machine-readable version of this policy will be available at `https://www.myfo
 
 ---
 
-For non-security questions, see our [Terms and Conditions](./TERMSANDCONDITIONS_EN.md) and [Privacy Policy](./PRIVACY_EN.md), or contact <hello@myfoodforest.nl>.
+For non-security questions, see our [Terms and Conditions](https://github.com/MyFoodForest/.github/blob/main/TERMSANDCONDITIONS_EN.md) and [Privacy Policy](https://github.com/MyFoodForest/.github/blob/main/PRIVACY_EN.md), or contact <hello@myfoodforest.nl>.
