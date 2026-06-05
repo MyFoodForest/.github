@@ -154,7 +154,7 @@ If you believe that Content on our Services is illegal or infringes your rights 
 - Your name and email address
 - A statement that you believe your report is accurate and submitted in good faith
 
-We will confirm receipt of your report, assess it diligently, timely, and in a non-arbitrary manner, and inform you of our decision. We may stop processing reports from persons who frequently submit manifestly unfounded reports, after first issuing a warning.
+We will confirm receipt of your report, assess it in a timely, diligent, and non-arbitrary manner, and inform you of our decision. We may stop processing reports from persons who frequently submit manifestly unfounded reports, after first issuing a warning.
 
 ## 8. Privacy and Data Protection
 
