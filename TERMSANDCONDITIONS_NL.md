@@ -197,12 +197,13 @@ Onze Diensten kunnen integreren met of linken naar diensten van derden (zoals we
 
 ## 12. Disclaimers en Beperkingen
 
-### 12.1 Landbouwinformatie Disclaimer
+### 12.1 Disclaimer Landbouw-, Planten- en Voedselveiligheidsinformatie
 
-- Verstrekte informatie is alleen voor educatieve doeleinden
+- Informatie in de Diensten (waaronder de plantendatabase, teeltgidsen, recepten en Inhoud van andere gebruikers) is algemeen en educatief van aard en kan fouten of omissies bevatten
+- **Eet nooit een plant, vrucht, paddenstoel of ander product uitsluitend op basis van informatie in de Diensten.** Controleer vóór consumptie altijd de determinatie, eetbaarheid en vereiste bereidingswijze (bijvoorbeeld planten die alleen na verhitting veilig eetbaar zijn) bij gezaghebbende bronnen of deskundigen
+- Planten kunnen worden verwisseld; sommige soorten hebben giftige gelijkende soorten, zijn giftig in bepaalde delen, rauwe vorm of hoeveelheden, of kunnen allergische reacties veroorzaken
 - Wij garanderen geen teeltsucces of plantenoverleving
-- Gebruikers moeten informatie verifiëren bij lokale experts
-- Houd rekening met lokaal klimaat, bodem en regelgeving
+- Verifieer informatie bij lokale experts en houd rekening met lokaal klimaat, bodem en regelgeving
 - Wij zijn niet verantwoordelijk voor gewasuitval of verliezen
 
 ### 12.2 Service Disclaimers
