@@ -3,7 +3,7 @@
 **My Food Forest B.V.**
 Last updated: June 5, 2026
 
-We take the security of our services and our users' data seriously. We value the work of security researchers and welcome reports of vulnerabilities, in line with the [NCSC Coordinated Vulnerability Disclosure guideline](https://english.ncsc.nl/publications/publications/2019/juni/01/coordinated-vulnerability-disclosure-the-guideline).
+We take the security of our services and our users' data seriously. We value the work of security researchers and welcome reports of vulnerabilities, in line with the [NCSC Coordinated Vulnerability Disclosure guideline](https://www.ncsc.nl/api/media/sites/default/files/Coordinated_Vulnerability_Disclosure_the_Guideline.pdf) (PDF).
 
 ## Reporting a Vulnerability
 
