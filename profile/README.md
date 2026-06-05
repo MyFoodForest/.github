@@ -37,8 +37,9 @@ Whether you're just starting out or have years of experience, our app is here to
 Want to know more or get involved?
 
 - 🌍 **Website**: [www.myfoodforest.nl](https://www.myfoodforest.nl)
-- 🔐 **Privacy Policy**  [Privacy Policy](../PRIVACY_EN.md)
-- 💼 **Terms & Conditions** [Terms and Conditions](../TERMSANDCONDITIONS_EN.md)
+- 🔐 **Privacy Policy**: [Privacy Policy](../PRIVACY_EN.md)
+- 💼 **Terms & Conditions**: [Terms and Conditions](../TERMSANDCONDITIONS_EN.md)
+- 🛡️ **Security**: Found a vulnerability? See our [Security Policy](../SECURITY.md) or email <security@myfoodforest.nl>
 
 ---
 
