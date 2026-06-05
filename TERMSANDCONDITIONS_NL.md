@@ -329,4 +329,4 @@ Door onze Diensten te gebruiken, erkent u dat u deze Algemene Voorwaarden hebt g
 *Deze Algemene Voorwaarden zijn beschikbaar in het [Engels](./TERMSANDCONDITIONS_EN.md).*
 
 **Documentversie**: 1.2  
-**Ingangsdatum**: 5 juli 2026
+**Ingangsdatum**: 5 juni 2026

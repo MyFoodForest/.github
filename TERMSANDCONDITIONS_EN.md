@@ -329,4 +329,4 @@ By using our Services, you acknowledge that you have read, understood, and agree
 *These Terms and Conditions are available in [Dutch](./TERMSANDCONDITIONS_NL.md).*
 
 **Document Version**: 1.2  
-**Effective Date**: July 5, 2026
+**Effective Date**: June 5, 2026
