@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **My Food Forest B.V.**  
-Last updated: June 4, 2026
+Last updated: June 5, 2026
 
 ## 1. Introduction
 
@@ -31,9 +31,12 @@ Chamber of Commerce number: 96517557
 **In the App:**
 
 - Account registration details (name, email address, username)
-- Profile information (location, gardening experience, preferences)
+- Profile information (the general location or region you enter yourself, gardening experience, preferences)
 - Content you create (posts, photos, comments, plant and harvest records)
+- Verification details, if we ask you to verify your identity or contact information (such as confirming your email address)
 - Communication with us (support requests, feedback)
+
+Photos can contain hidden metadata, such as the GPS location where they were taken (EXIF data). We automatically remove this location metadata from photos when you upload them.
 
 **On the Website:**
 
@@ -87,8 +90,11 @@ Third-party companies that help us operate our Services:
 - **Microsoft Azure** — cloud hosting and infrastructure for our Services
 - **Microsoft Entra External ID** — account sign-in and authentication
 - **Microsoft Forms** — beta program sign-up forms on the Website
+- **Mailchimp (Intuit Inc.)** — sending our newsletter
 
 We have data processing agreements in place with our processors as required by Article 28 GDPR.
+
+We also share the location of your food forest (not your identity) with external weather data providers to retrieve local weather information (see Section 3.4).
 
 ### 6.2 Legal Requirements
 
@@ -97,7 +103,7 @@ We may disclose your information when required by law or to:
 - Comply with legal processes or government requests
 - Protect our rights, property, or safety
 - Prevent fraud or security threats
-- Enforce our terms of service
+- Enforce our Terms and Conditions
 
 ### 6.3 Business Transfers
 
@@ -107,9 +113,9 @@ We do not sell your personal data, and we do not share it with third parties for
 
 ## 7. International Data Transfers
 
-Our Services are hosted on Microsoft Azure in the European Union. Where Microsoft processes limited data outside the European Economic Area (EEA) (for example for support or service operations), we ensure adequate protection through:
+Our Services are hosted on Microsoft Azure in the European Union. Where our service providers process limited data outside the European Economic Area (EEA) (for example, Microsoft for support or service operations, or Mailchimp for sending our newsletter), we ensure adequate protection through:
 
-- Microsoft's compliance with GDPR and Standard Contractual Clauses
+- Our providers' compliance with GDPR and Standard Contractual Clauses
 - Adequacy decisions by the European Commission (including the EU-US Data Privacy Framework, where applicable)
 - Other appropriate safeguards as required by law
 
@@ -128,6 +134,8 @@ Specific retention periods:
 - **Support and contact communications**: 3 years
 - **Newsletter subscription**: Until you unsubscribe
 - **Financial records (if applicable)**: 7 years (Dutch legal requirement)
+
+If we terminate your account in accordance with our Terms and Conditions (for example, for violations or after prolonged inactivity), the same deletion periods apply from the date of termination.
 
 ## 9. Your Rights Under GDPR
 
@@ -161,7 +169,7 @@ Object to processing based on legitimate interests or for direct marketing.
 
 Withdraw consent at any time where processing is based on consent (for example, location access via your device settings, or the newsletter via the unsubscribe link).
 
-To exercise these rights, contact us at <hello@myfoodforest.nl>. We will respond within one month of receiving your request.
+To exercise these rights, contact us at <hello@myfoodforest.nl>. We will respond within one month of receiving your request. For complex or numerous requests, we may extend this period by up to two further months; if so, we will inform you within the first month.
 
 ## 10. Data Security
 
@@ -196,7 +204,7 @@ The App does **not** use:
 - Third-party analytics or advertising SDKs
 - Device fingerprinting
 
-**Legal basis**: Strictly necessary storage is exempt from the consent requirement; we rely on our legitimate interest in providing a secure, functioning service.
+**Legal basis**: Strictly necessary storage is exempt from the consent requirement; for the underlying processing we rely on the performance of our contract with you and on our legitimate interest in providing a secure, functioning service.
 
 ### 11.3 Changes to Our Use of Cookies
 
@@ -231,6 +239,8 @@ Postbus 93374
 The Netherlands  
 Website: autoriteitpersoonsgegevens.nl
 
+If you live in another EU member state, you may also lodge a complaint with the data protection authority of your own country.
+
 ## 16. Changes to This Policy
 
 We may update this privacy policy from time to time. We will notify you of significant changes through:
@@ -249,3 +259,6 @@ Email: <hello@myfoodforest.nl>
 ---
 
 *This privacy policy is available in [Dutch](./PRIVACY_NL.md).*
+
+**Document Version**: 1.1  
+**Effective Date**: June 5, 2026

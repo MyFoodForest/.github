@@ -1,7 +1,7 @@
 # Privacyverklaring
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 4 juni 2026
+Laatst bijgewerkt: 5 juni 2026
 
 ## 1. Inleiding
 
@@ -30,9 +30,12 @@ Kamer van Koophandel nummer: 96517557
 **In de App:**
 
 - Accountregistratiegegevens (naam, e-mailadres, gebruikersnaam)
-- Profielinformatie (locatie, tuinierervaring, voorkeuren)
+- Profielinformatie (de algemene locatie of regio die u zelf invoert, tuinierervaring, voorkeuren)
 - Inhoud die u creëert (berichten, foto's, opmerkingen, plant- en oogstregistraties)
+- Verificatiegegevens, als wij u vragen uw identiteit of contactgegevens te verifiëren (zoals het bevestigen van uw e-mailadres)
 - Communicatie met ons (supportverzoeken, feedback)
+
+Foto's kunnen verborgen metadata bevatten, zoals de GPS-locatie waar ze zijn gemaakt (EXIF-gegevens). Wij verwijderen deze locatiemetadata automatisch uit foto's wanneer u ze uploadt.
 
 **Op de Website:**
 
@@ -86,8 +89,11 @@ Externe bedrijven die ons helpen onze Diensten te exploiteren:
 - **Microsoft Azure** — cloudhosting en infrastructuur voor onze Diensten
 - **Microsoft Entra External ID** — inloggen en authenticatie
 - **Microsoft Forms** — aanmeldformulieren voor het betaprogramma op de Website
+- **Mailchimp (Intuit Inc.)** — versturen van onze nieuwsbrief
 
 Met onze verwerkers hebben wij verwerkersovereenkomsten gesloten zoals vereist door artikel 28 AVG.
+
+Daarnaast delen wij de locatie van uw voedselbos (niet uw identiteit) met externe weergegevensaanbieders om lokale weersinformatie op te halen (zie artikel 3.4).
 
 ### 6.2 Wettelijke Vereisten
 
@@ -96,7 +102,7 @@ Wij kunnen uw informatie openbaar maken wanneer vereist door de wet of om:
 - Te voldoen aan juridische procedures of overheidsverzoeken
 - Onze rechten, eigendom of veiligheid te beschermen
 - Fraude of beveiligingsbedreigingen te voorkomen
-- Onze servicevoorwaarden af te dwingen
+- Onze Algemene Voorwaarden af te dwingen
 
 ### 6.3 Bedrijfsoverdrachten
 
@@ -106,9 +112,9 @@ Wij verkopen uw persoonsgegevens niet en delen deze niet met derden voor marketi
 
 ## 7. Internationale Gegevensoverdrachten
 
-Onze Diensten worden gehost op Microsoft Azure binnen de Europese Unie. Waar Microsoft beperkte gegevens buiten de Europese Economische Ruimte (EER) verwerkt (bijvoorbeeld voor support of servicebeheer), zorgen wij voor adequate bescherming door:
+Onze Diensten worden gehost op Microsoft Azure binnen de Europese Unie. Waar onze dienstverleners beperkte gegevens buiten de Europese Economische Ruimte (EER) verwerken (bijvoorbeeld Microsoft voor support of servicebeheer, of Mailchimp voor het versturen van onze nieuwsbrief), zorgen wij voor adequate bescherming door:
 
-- Microsoft's naleving van de AVG en Standaard Contractuele Clausules
+- Naleving van de AVG en Standaard Contractuele Clausules door onze dienstverleners
 - Adequaatheidsbesluiten van de Europese Commissie (waaronder het EU-VS Data Privacy Framework, waar van toepassing)
 - Andere passende waarborgen zoals vereist door de wet
 
@@ -127,6 +133,8 @@ Specifieke bewaartermijnen:
 - **Support- en contactcommunicatie**: 3 jaar
 - **Nieuwsbriefinschrijving**: Tot u zich afmeldt
 - **Financiële gegevens (indien van toepassing)**: 7 jaar (Nederlandse wettelijke vereiste)
+
+Als wij uw account beëindigen op grond van onze Algemene Voorwaarden (bijvoorbeeld wegens schendingen of na langdurige inactiviteit), gelden dezelfde verwijderingstermijnen vanaf de datum van beëindiging.
 
 ## 9. Uw Rechten Onder de AVG
 
@@ -160,7 +168,7 @@ Bezwaar maken tegen verwerking op basis van gerechtvaardigd belang of voor direc
 
 Toestemming op elk moment intrekken waar verwerking gebaseerd is op toestemming (bijvoorbeeld locatietoegang via uw apparaatinstellingen, of de nieuwsbrief via de afmeldlink).
 
-Om deze rechten uit te oefenen, neem contact met ons op via <hello@myfoodforest.nl>. Wij zullen binnen één maand na ontvangst van uw verzoek reageren.
+Om deze rechten uit te oefenen, neem contact met ons op via <hello@myfoodforest.nl>. Wij zullen binnen één maand na ontvangst van uw verzoek reageren. Bij complexe of talrijke verzoeken kunnen wij deze termijn met maximaal twee maanden verlengen; in dat geval informeren wij u hierover binnen de eerste maand.
 
 ## 10. Gegevensbeveiliging
 
@@ -195,7 +203,7 @@ De App gebruikt **geen**:
 - Analytics- of advertentie-SDK's van derden
 - Device fingerprinting
 
-**Rechtsgrondslag**: Strikt noodzakelijke opslag is vrijgesteld van het toestemmingsvereiste; wij baseren ons op ons gerechtvaardigd belang bij een veilige, goed functionerende dienst.
+**Rechtsgrondslag**: Strikt noodzakelijke opslag is vrijgesteld van het toestemmingsvereiste; voor de onderliggende verwerking baseren wij ons op de uitvoering van onze overeenkomst met u en op ons gerechtvaardigd belang bij een veilige, goed functionerende dienst.
 
 ### 11.3 Wijzigingen in Ons Cookiegebruik
 
@@ -230,6 +238,8 @@ Postbus 93374
 Nederland  
 Website: autoriteitpersoonsgegevens.nl
 
+Woont u in een andere EU-lidstaat, dan kunt u ook een klacht indienen bij de gegevensbeschermingsautoriteit van uw eigen land.
+
 ## 16. Wijzigingen in Deze Verklaring
 
 Wij kunnen deze privacyverklaring van tijd tot tijd bijwerken. Wij zullen u op de hoogte stellen van significante wijzigingen via:
@@ -248,3 +258,6 @@ E-mail: <hello@myfoodforest.nl>
 ---
 
 *Deze privacyverklaring is beschikbaar in het [Engels](./PRIVACY_EN.md).*
+
+**Documentversie**: 1.1  
+**Ingangsdatum**: 5 juni 2026

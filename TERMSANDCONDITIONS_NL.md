@@ -1,7 +1,7 @@
 # Algemene Voorwaarden
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 4 juni 2026
+Laatst bijgewerkt: 5 juni 2026
 
 ## 1. Inleiding en Aanvaarding
 
@@ -93,6 +93,7 @@ Alle Gebruikersinhoud moet:
 - Accuraat en niet misleidend zijn
 - Intellectuele eigendomsrechten respecteren
 - Geen schadelijk, aanstootgevend of ongepast materiaal bevatten
+- Geen herkenbare personen tonen zonder hun toestemming
 - Voldoen aan toepasselijke wetten en regelgeving
 - Geen gevaarlijke of illegale activiteiten promoten
 
@@ -105,6 +106,8 @@ Bij interactie met andere gebruikers:
 - Respecteer privacy en persoonlijke grenzen
 - Rapporteer ongepast gedrag
 - Volg ons moderatiebeleid voor de community
+
+**Inhoudsmoderatie**: Wij controleren Gebruikersinhoud niet vooraf voordat deze wordt gepubliceerd. Wij modereren op basis van meldingen van gebruikers (zie artikel 7.5) en onze eigen beoordeling; wij gebruiken geen geautomatiseerde moderatietools. Wanneer Inhoud deze Voorwaarden of toepasselijke wetgeving schendt, kunnen wij deze verwijderen, een waarschuwing geven, of het betrokken Account opschorten of beëindigen (zie artikelen 7.4 en 14.2).
 
 ## 7. Gebruikersinhoud en Intellectueel Eigendom
 
@@ -127,11 +130,31 @@ U bent uitsluitend verantwoordelijk voor uw Gebruikersinhoud en garandeert dat:
 
 ### 7.3 Onze Inhoudsrechten
 
-Alle serviceinhoud, handelsmerken, logo's en intellectueel eigendom blijven ons exclusieve eigendom of dat van onze licentiegevers.
+Alle inhoud die wij via de Diensten aanbieden — waaronder tekst, afbeeldingen, grafische elementen, logo's, handelsmerken, blogartikelen, inhoud van de plantendatabase, teeltgidsen en ander educatief materiaal — is beschermd door auteursrecht en andere intellectuele eigendomsrechten en blijft ons exclusieve eigendom of dat van onze licentiegevers.
+
+U mag deze inhoud binnen de Diensten bekijken en gebruiken voor eigen gebruik, waaronder voor het plannen en beheren van uw eigen voedselbos. Zonder onze voorafgaande schriftelijke toestemming mag u niet:
+
+- Onze tekst of afbeeldingen kopiëren, reproduceren of opnieuw publiceren buiten de Diensten
+- Inhoud (waaronder de plantendatabase) scrapen, extraheren of systematisch verzamelen, al dan niet geautomatiseerd
+- Onze inhoud verspreiden, verkopen of anderszins commercieel exploiteren
+- Onze inhoud wijzigen of auteursrecht- of bronvermeldingen verwijderen
+
+Sommige inhoud in de Diensten (zoals afbeeldingen of plantgegevens) wordt geleverd door externe licentiegevers en kan onderworpen zijn aan aanvullende licentievoorwaarden; voor die inhoud gelden dezelfde beperkingen.
 
 ### 7.4 Inhoud Verwijderen
 
-Wij behouden ons het recht voor om Inhoud die deze Voorwaarden schendt zonder voorafgaande kennisgeving te verwijderen.
+Wij kunnen Inhoud die deze Voorwaarden of toepasselijke wetgeving schendt verwijderen of ontoegankelijk maken. Als wij uw Inhoud verwijderen of beperken, informeren wij u over de beslissing en de redenen daarvoor, tenzij dit ons wettelijk niet is toegestaan. Als u het niet eens bent met onze beslissing, kunt u bezwaar maken door contact met ons op te nemen via <hello@myfoodforest.nl>; wij beoordelen uw bezwaar zorgvuldig en reageren tijdig.
+
+### 7.5 Melden van Illegale of Inbreukmakende Inhoud
+
+Als u van mening bent dat Inhoud op onze Diensten illegaal is of inbreuk maakt op uw rechten (waaronder auteursrecht op tekst of afbeeldingen), kunt u dit melden via <hello@myfoodforest.nl> (onderwerp: "Inhoudsmelding"). Vermeld daarbij:
+
+- Een link naar of duidelijke beschrijving van de Inhoud en de vindplaats binnen de Diensten
+- Een toelichting waarom u meent dat de Inhoud illegaal of inbreukmakend is
+- Uw naam en e-mailadres
+- Een verklaring dat u te goeder trouw meent dat uw melding juist is
+
+Wij bevestigen de ontvangst van uw melding, beoordelen deze zorgvuldig, tijdig en niet-willekeurig, en informeren u over onze beslissing. Wij kunnen de verwerking van meldingen staken van personen die herhaaldelijk kennelijk ongegronde meldingen indienen, na een voorafgaande waarschuwing.
 
 ## 8. Privacy en Gegevensbescherming
 
@@ -274,7 +297,7 @@ Als enige bepaling van deze Voorwaarden ongeldig of niet-afdwingbaar wordt bevon
 
 ## 19. Overdracht
 
-Wij kunnen deze Voorwaarden of onze rechten hieronder overdragen. U kunt uw rechten niet overdragen zonder onze schriftelijke toestemming.
+Wij kunnen onze rechten en verplichtingen onder deze Voorwaarden overdragen aan een derde in het kader van een fusie, overname, herstructurering of verkoop van activa. Wij stellen u van een dergelijke overdracht op de hoogte, waarna u uw Account kosteloos kunt beëindigen als u niet met de nieuwe partij verder wilt. U kunt uw rechten onder deze Voorwaarden niet overdragen zonder onze schriftelijke toestemming.
 
 ## 20. Wijzigingen in Voorwaarden
 
@@ -305,5 +328,5 @@ Door onze Diensten te gebruiken, erkent u dat u deze Algemene Voorwaarden hebt g
 
 *Deze Algemene Voorwaarden zijn beschikbaar in het [Engels](./TERMSANDCONDITIONS_EN.md).*
 
-**Documentversie**: 1.1  
-**Ingangsdatum**: 4 juni 2026
+**Documentversie**: 1.2  
+**Ingangsdatum**: 5 juni 2026

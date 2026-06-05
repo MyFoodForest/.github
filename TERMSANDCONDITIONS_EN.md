@@ -1,7 +1,7 @@
 # Terms and Conditions
 
 **My Food Forest B.V.**  
-Last updated: June 4, 2026
+Last updated: June 5, 2026
 
 ## 1. Introduction and Acceptance
 
@@ -93,6 +93,7 @@ All User Content must:
 - Be accurate and not misleading
 - Respect intellectual property rights
 - Not contain harmful, offensive, or inappropriate material
+- Not depict identifiable persons without their permission
 - Comply with applicable laws and regulations
 - Not promote dangerous or illegal activities
 
@@ -105,6 +106,8 @@ When interacting with other users:
 - Respect privacy and personal boundaries
 - Report inappropriate behavior
 - Follow our community moderation policies
+
+**Content moderation**: We do not pre-screen User Content before it is published. We moderate based on reports from users (see Section 7.5) and our own review; we do not use automated content moderation tools. Where Content violates these Terms or applicable law, we may remove it, issue a warning, or suspend or terminate the Account involved (see Sections 7.4 and 14.2).
 
 ## 7. User Content and Intellectual Property
 
@@ -127,11 +130,31 @@ You are solely responsible for your User Content and warrant that:
 
 ### 7.3 Our Content Rights
 
-All Service content, trademarks, logos, and intellectual property remain our exclusive property or that of our licensors.
+All content we provide through the Services — including text, images, graphics, logos, trademarks, blog posts, plant database content, growing guides, and other educational materials — is protected by copyright and other intellectual property rights and remains our exclusive property or that of our licensors.
+
+You may view and use this content within the Services for your own use, including in connection with planning and managing your own food forest. Without our prior written permission, you may not:
+
+- Copy, reproduce, or republish our text or images outside the Services
+- Scrape, extract, or systematically collect content (including the plant database), whether by automated or manual means
+- Distribute, sell, or otherwise commercially exploit our content
+- Modify our content or remove copyright or attribution notices
+
+Some content in the Services (such as images or plant data) is provided by third-party licensors and may be subject to additional license terms; the same restrictions apply to that content.
 
 ### 7.4 Content Removal
 
-We reserve the right to remove any Content that violates these Terms without prior notice.
+We may remove or disable access to Content that violates these Terms or applicable law. If we remove or restrict your Content, we will inform you of the decision and the reasons for it, unless we are legally prevented from doing so. If you disagree with our decision, you can object by contacting us at <hello@myfoodforest.nl>; we will review your objection diligently and respond in a timely manner.
+
+### 7.5 Reporting Illegal or Infringing Content
+
+If you believe that Content on our Services is illegal or infringes your rights (including copyright in text or images), you can report it to us at <hello@myfoodforest.nl> (subject: "Content report"). Please include:
+
+- A link to or a clear description of the Content and where it appears in the Services
+- An explanation of why you believe the Content is illegal or infringing
+- Your name and email address
+- A statement that you believe your report is accurate and submitted in good faith
+
+We will confirm receipt of your report, assess it in a timely, diligent, and non-arbitrary manner, and inform you of our decision. We may stop processing reports from persons who frequently submit manifestly unfounded reports, after first issuing a warning.
 
 ## 8. Privacy and Data Protection
 
@@ -274,7 +297,7 @@ If any provision of these Terms is found invalid or unenforceable, the remaining
 
 ## 19. Assignment
 
-We may assign these Terms or our rights hereunder. You may not assign your rights without our written consent.
+We may transfer our rights and obligations under these Terms to a third party in connection with a merger, acquisition, restructuring, or sale of assets. We will notify you of such a transfer, after which you may terminate your Account free of charge if you do not wish to continue with the new party. You may not assign your rights under these Terms without our written consent.
 
 ## 20. Changes to Terms
 
@@ -305,5 +328,5 @@ By using our Services, you acknowledge that you have read, understood, and agree
 
 *These Terms and Conditions are available in [Dutch](./TERMSANDCONDITIONS_NL.md).*
 
-**Document Version**: 1.1  
-**Effective Date**: June 4, 2026
+**Document Version**: 1.2  
+**Effective Date**: June 5, 2026
