@@ -199,9 +199,9 @@ Our Services may integrate with or link to third-party services (such as weather
 
 ### 12.1 Agricultural, Plant, and Food Safety Disclaimer
 
-- Information in the Services (including the plant database, growing guides, recipes, and Content from other users) is general and educational in nature and may contain errors or omissions
+- Information in the Services (including the plant database, growing guides, recipes, and User Content posted by other users) is general and educational in nature and may contain errors or omissions
 - **Never eat any plant, fruit, mushroom, or other product based solely on information in the Services.** Always verify the identification, edibility, and required preparation method (for example, plants that are only safe to eat after cooking) with authoritative sources or qualified experts before consumption
-- Plants can be misidentified; some species have toxic lookalikes, are toxic in certain parts, raw form, or quantities, or can cause allergic reactions
+- Plants can be misidentified; some species have toxic lookalikes, are toxic in certain parts, when eaten raw, or in certain quantities, or can cause allergic reactions
 - We do not guarantee growing success or plant survival
 - Users should verify information with local experts and consider local climate, soil, and regulations
 - We are not responsible for crop failures or losses
