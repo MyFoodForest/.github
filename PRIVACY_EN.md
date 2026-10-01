@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **My Food Forest B.V.**  
-Last updated: June 5, 2026
+Last updated: October 1, 2026
 
 ## 1. Introduction
 
@@ -40,17 +40,20 @@ Photos can contain hidden metadata, such as the GPS location where they were tak
 
 **On the Website:**
 
-- Newsletter subscription details (email address)
-- Contact form submissions (name, email address, your message)
-- Beta program sign-up details submitted via Microsoft Forms
+- Newsletter subscription details (email address, optionally your first name, and the language of the Website you subscribe on: Dutch or English)
+- Contact form submissions (first and last name, email address, optionally your phone number and the name of your food forest, the topics you tick, your message, and the language of the Website)
+
+A message sent through the contact form is delivered as an email, sent through Microsoft's Azure Communication Services, to our mailbox <hello@myfoodforest.nl>, with your email address as the reply-to address. The Website itself does not store your message.
 
 ### 3.2 Information Automatically Collected
 
 - Device information (device type, operating system)
 - Location data (only if you grant permission, to position your food forest and provide local weather information)
 - Log data (IP address, access times, error logs) for operating and securing our Services
+- Website statistics through Plausible Analytics, without cookies and without storing your IP address (see Section 11.1)
+- Technical browser and connection data (such as IP address, TLS fingerprint and User-Agent) that Cloudflare Turnstile processes to protect our forms against bots (see Section 11.1)
 
-We do not use advertising identifiers (such as the iOS IDFA or Android Advertising ID), device fingerprinting, or third-party behavioral tracking.
+In the App, we do not use advertising identifiers (such as the iOS IDFA or Android Advertising ID), device fingerprinting, or third-party behavioral tracking. On the Website, we do not use advertising or tracking cookies; the technical browser characteristics that Cloudflare Turnstile reads are used only to stop bots.
 
 ### 3.3 Information from Sign-In Providers
 
@@ -66,9 +69,10 @@ When you sign in to the App, authentication is handled by Microsoft Entra Extern
 |---------|------|---------------------------|
 | Creating and managing your account, providing App functionality | Account details, profile, content | Contract (Art. 6(1)(b)) |
 | Positioning your food forest and showing local weather | Location data | Consent (Art. 6(1)(a)) |
-| Sending the newsletter | Email address | Consent (Art. 6(1)(a)) |
-| Responding to contact form submissions and support requests | Name, email, message | Legitimate interest (Art. 6(1)(f)) |
-| Running the beta program | Sign-up details | Contract / pre-contractual steps (Art. 6(1)(b)) |
+| Sending the newsletter | Email address, optional first name, language | Consent (Art. 6(1)(a)) |
+| Responding to contact form submissions and support requests | Name, email, optional phone number and food forest name, topics, message, website language | Legitimate interest (Art. 6(1)(f)) |
+| Protecting our forms against spam and abuse by bots (Cloudflare Turnstile) | IP address, technical browser and connection data | Legitimate interest (Art. 6(1)(f)) |
+| Measuring use of the Website in aggregate statistics (Plausible Analytics) | Pages visited, referring website, browser, operating system, device type, country or region | Legitimate interest (Art. 6(1)(f)) |
 | Securing our Services and preventing fraud or abuse | Log data, account details | Legitimate interest (Art. 6(1)(f)) |
 | Improving our Services (error logs, diagnostics) | Log data | Legitimate interest (Art. 6(1)(f)) |
 | Complying with legal obligations | As required | Legal obligation (Art. 6(1)(c)) |
@@ -87,12 +91,17 @@ We may share your information with:
 
 Third-party companies that help us operate our Services:
 
-- **Microsoft Azure** — cloud hosting and infrastructure for our Services
+- **Microsoft Azure** — cloud hosting and infrastructure for our Services, including the Website (Azure Static Web Apps)
 - **Microsoft Entra External ID** — account sign-in and authentication
-- **Microsoft Forms** — beta program sign-up forms on the Website
-- **Mailchimp (Intuit Inc.)** — sending our newsletter
+- **Microsoft Azure Communication Services** — delivering contact form messages from the Website by email
+- **Microsoft 365** — our email, including the mailbox <hello@myfoodforest.nl> where contact form messages arrive
+- **Mailchimp (The Rocket Science Group LLC, part of Intuit Inc.)** — managing newsletter subscriptions (with double opt-in) and sending our newsletter
+- **Plausible Analytics (Plausible Insights OÜ, Estonia)** — cookieless website statistics
+- **Cloudflare, Inc. (Turnstile)** — bot check on the Website's forms
 
 We have data processing agreements in place with our processors as required by Article 28 GDPR.
+
+Cloudflare processes the Turnstile signals as a processor on our behalf, and also uses them as an independent controller to improve Turnstile's bot detection. See Cloudflare's [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/).
 
 We also share the location of your food forest (not your identity) with external weather data providers to retrieve local weather information (see Section 3.4).
 
@@ -113,10 +122,12 @@ We do not sell your personal data, and we do not share it with third parties for
 
 ## 7. International Data Transfers
 
-Our Services are hosted on Microsoft Azure in the European Union. Where our service providers process limited data outside the European Economic Area (EEA) (for example, Microsoft for support or service operations, or Mailchimp for sending our newsletter), we ensure adequate protection through:
+Our Services are hosted on Microsoft Azure in the European Union. The Website's forms are processed in the Azure West Europe region, and Azure Communication Services processes the contact form emails with Europe as its data location. Plausible processes and stores the website statistics in the EU.
+
+Where our service providers process limited data outside the European Economic Area (EEA) (for example, Microsoft for support or service operations, Mailchimp in the United States for our newsletter, or Cloudflare in the United States for the bot check on our forms), we ensure adequate protection through:
 
 - Our providers' compliance with GDPR and Standard Contractual Clauses
-- Adequacy decisions by the European Commission (including the EU-US Data Privacy Framework, where applicable)
+- Adequacy decisions by the European Commission (including the EU-US Data Privacy Framework, where applicable; Mailchimp and Cloudflare are certified under it)
 - Other appropriate safeguards as required by law
 
 ## 8. Data Retention
@@ -131,8 +142,10 @@ Specific retention periods:
 
 - **Account data**: When you delete your account (which you can do in the App), your account and personal identifiers are deleted within 30 days. Contributions such as plant and harvest records may be retained in anonymized form, no longer linked to you.
 - **Usage and error logs**: 12 months
-- **Support and contact communications**: 3 years
-- **Newsletter subscription**: Until you unsubscribe
+- **Support and contact communications** (including contact form messages): 3 years
+- **Newsletter subscription**: Until you unsubscribe. A sign-up that is not confirmed through the confirmation email is deleted by Mailchimp after 60 days
+- **Website statistics**: Plausible stores no IP addresses, User-Agents or other persistent identifiers; the daily key is deleted after 24 hours. The aggregated statistics (such as page views per day) contain no personal data and are kept for as long as we use Plausible; they are deleted when we remove the Website from our Plausible account
+- **Bot check**: We do not store the data of the Turnstile check ourselves
 - **Financial records (if applicable)**: 7 years (Dutch legal requirement)
 
 If we terminate your account in accordance with our Terms and Conditions (for example, for violations or after prolonged inactivity), the same deletion periods apply from the date of termination.
@@ -188,11 +201,13 @@ This section describes our use of cookies and similar technologies on the Websit
 
 ### 11.1 Website
 
-Our Website currently uses only strictly necessary technologies to function and does **not** use analytics or marketing cookies. We do not show a cookie consent banner because none is required for strictly necessary cookies.
+Our Website does **not** set analytics, advertising or tracking cookies. Our own website code sets no cookies and stores nothing in your browser. We do not show a cookie consent banner, because we only use technologies that do not require consent (see below).
 
-The beta program sign-up on the Website uses an embedded **Microsoft Forms** form, which may set its own functional cookies. See the [Microsoft Privacy Statement](https://privacy.microsoft.com) for details.
+**Website statistics (Plausible Analytics).** We measure use of the Website with Plausible Analytics from Plausible Insights OÜ (Estonia). Plausible does not use cookies and stores nothing in your browser. To count visits without tracking you, Plausible calculates an anonymous code from your IP address and User-Agent, using a key that is replaced and deleted every 24 hours; your IP address and User-Agent themselves are not stored. We only see aggregate statistics, such as pages visited, referring websites, browser, operating system, device type, and country or region, and never data about individual visitors. Plausible processes and stores this data in the EU. See [Plausible's data policy](https://plausible.io/data-policy) for details.
 
-Links to social media (Instagram, LinkedIn, Facebook) on the Website are plain links; no social media trackers are loaded on our pages.
+**Bot check (Cloudflare Turnstile).** The newsletter form and the contact form are protected with Cloudflare Turnstile from Cloudflare, Inc. (United States), to prevent spam and abuse by automated programs (bots). Turnstile is loaded on the pages that contain one of these forms and runs a short check in your browser. For this, Cloudflare processes technical signals such as your IP address, your browser's TLS fingerprint and User-Agent, and the results of tests on your browser's characteristics and behavior; to do so, Turnstile reads data from your browser and may also store data in it. Turnstile does not read what you enter in the forms. After the check, your browser sends a one-time code (token) along with the form; our server has Cloudflare verify that code, together with your IP address. According to Cloudflare, these signals are strictly necessary to detect and block bots, and are not used to identify, profile or track individuals. We consider this check strictly necessary to secure our forms and do not ask for consent for it. See Cloudflare's [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/) for details.
+
+Apart from Plausible and Cloudflare Turnstile, the Website loads no third-party scripts or content, such as external fonts, videos or social media buttons. Links to social media (such as Instagram, LinkedIn and Facebook) on the Website are plain links; no social media trackers are loaded on our pages.
 
 ### 11.2 App
 
@@ -208,7 +223,7 @@ The App does **not** use:
 
 ### 11.3 Changes to Our Use of Cookies
 
-If we introduce analytics or other non-essential cookies in the future, we will update this policy and ask for your consent first, via a consent banner on the Website or an in-app prompt.
+If we introduce cookies or similar technologies that require consent in the future, we will update this policy and ask for your consent first, via a consent banner on the Website or an in-app prompt.
 
 ## 12. Children's Privacy
 
@@ -216,7 +231,7 @@ Our Services are not intended for children under 16. We do not knowingly collect
 
 ## 13. Marketing Communications
 
-With your consent, we may send you marketing communications about our services, such as our newsletter. You can opt out at any time by:
+With your consent, we may send you marketing communications about our services, such as our newsletter. The newsletter uses double opt-in: after you subscribe, you receive an email with a confirmation link, and you only receive the newsletter after clicking it. Every newsletter contains an unsubscribe link. You can opt out at any time by:
 
 - Using the unsubscribe link in emails
 - Adjusting notification settings in the App
@@ -260,5 +275,5 @@ Email: <hello@myfoodforest.nl>
 
 *This privacy policy is available in [Dutch](./PRIVACY_NL.md).*
 
-**Document Version**: 1.1  
-**Effective Date**: June 5, 2026
+**Document Version**: 1.2  
+**Effective Date**: October 1, 2026
