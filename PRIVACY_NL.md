@@ -1,7 +1,7 @@
 # Privacyverklaring
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 5 juni 2026
+Laatst bijgewerkt: 1 oktober 2026
 
 ## 1. Inleiding
 
@@ -39,17 +39,20 @@ Foto's kunnen verborgen metadata bevatten, zoals de GPS-locatie waar ze zijn gem
 
 **Op de Website:**
 
-- Nieuwsbriefinschrijving (e-mailadres)
-- Contactformulier (naam, e-mailadres, uw bericht)
-- Aanmeldgegevens voor het betaprogramma via Microsoft Forms
+- Nieuwsbriefinschrijving (e-mailadres, optioneel uw voornaam, en de taal van de Website waarop u zich inschrijft: Nederlands of Engels)
+- Contactformulier (voor- en achternaam, e-mailadres, optioneel uw telefoonnummer en de naam van uw voedselbos, de onderwerpen die u aanvinkt, uw bericht, en de taal van de Website)
+
+Een bericht via het contactformulier wordt als e-mail, verstuurd via Azure Communication Services van Microsoft, afgeleverd in onze mailbox <hello@myfoodforest.nl>, met uw e-mailadres als antwoordadres. De Website slaat uw bericht zelf niet op.
 
 ### 3.2 Automatisch Verzamelde Informatie
 
 - Apparaatinformatie (apparaattype, besturingssysteem)
 - Locatiegegevens (alleen als u toestemming verleent, om uw voedselbos te positioneren en lokale weersinformatie te tonen)
 - Loggegevens (IP-adres, toegangstijden, foutlogs) voor het beheren en beveiligen van onze Diensten
+- Websitestatistieken via Plausible Analytics, zonder cookies en zonder dat uw IP-adres wordt opgeslagen (zie artikel 11.1)
+- Technische browser- en verbindingsgegevens (zoals IP-adres, TLS-fingerprint en User-Agent) die Cloudflare Turnstile verwerkt om onze formulieren tegen bots te beschermen (zie artikel 11.1)
 
-Wij gebruiken geen advertentie-identificaties (zoals de iOS IDFA of Android Advertising ID), device fingerprinting of tracking door derden.
+In de App gebruiken wij geen advertentie-identificaties (zoals de iOS IDFA of Android Advertising ID), device fingerprinting of tracking door derden. Op de Website gebruiken wij geen advertentie- of trackingcookies; de technische browserkenmerken die Cloudflare Turnstile uitleest, worden alleen gebruikt om bots tegen te houden.
 
 ### 3.3 Informatie van Inlogproviders
 
@@ -65,9 +68,10 @@ Wanneer u inlogt in de App, wordt de authenticatie afgehandeld door Microsoft En
 |------|----------|------------------------------|
 | Aanmaken en beheren van uw account, leveren van App-functionaliteit | Accountgegevens, profiel, inhoud | Overeenkomst (art. 6 lid 1 sub b) |
 | Positioneren van uw voedselbos en tonen van lokaal weer | Locatiegegevens | Toestemming (art. 6 lid 1 sub a) |
-| Versturen van de nieuwsbrief | E-mailadres | Toestemming (art. 6 lid 1 sub a) |
-| Beantwoorden van contactformulier- en supportverzoeken | Naam, e-mail, bericht | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
-| Uitvoeren van het betaprogramma | Aanmeldgegevens | Overeenkomst / precontractuele fase (art. 6 lid 1 sub b) |
+| Versturen van de nieuwsbrief | E-mailadres, optioneel voornaam, taal | Toestemming (art. 6 lid 1 sub a) |
+| Beantwoorden van contactformulier- en supportverzoeken | Naam, e-mail, optioneel telefoonnummer en naam van uw voedselbos, onderwerpen, bericht | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
+| Beschermen van onze formulieren tegen spam en misbruik door bots (Cloudflare Turnstile) | IP-adres, technische browser- en verbindingsgegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
+| Meten van het gebruik van de Website in geaggregeerde statistieken (Plausible Analytics) | Bezochte pagina's, verwijzende website, browser, besturingssysteem, apparaattype, land of regio | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Beveiligen van onze Diensten en voorkomen van fraude of misbruik | Loggegevens, accountgegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Verbeteren van onze Diensten (foutlogs, diagnostiek) | Loggegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Voldoen aan wettelijke verplichtingen | Voor zover vereist | Wettelijke verplichting (art. 6 lid 1 sub c) |
@@ -86,12 +90,17 @@ Wij kunnen uw informatie delen met:
 
 Externe bedrijven die ons helpen onze Diensten te exploiteren:
 
-- **Microsoft Azure** — cloudhosting en infrastructuur voor onze Diensten
+- **Microsoft Azure** — cloudhosting en infrastructuur voor onze Diensten, waaronder de Website (Azure Static Web Apps)
 - **Microsoft Entra External ID** — inloggen en authenticatie
-- **Microsoft Forms** — aanmeldformulieren voor het betaprogramma op de Website
-- **Mailchimp (Intuit Inc.)** — versturen van onze nieuwsbrief
+- **Microsoft Azure Communication Services** — afleveren van berichten van het contactformulier op de Website per e-mail
+- **Microsoft 365** — onze e-mail, waaronder de mailbox <hello@myfoodforest.nl> waarin berichten van het contactformulier binnenkomen
+- **Mailchimp (The Rocket Science Group LLC, onderdeel van Intuit Inc.)** — beheren van nieuwsbriefinschrijvingen (met dubbele opt-in) en versturen van onze nieuwsbrief
+- **Plausible Analytics (Plausible Insights OÜ, Estland)** — websitestatistieken zonder cookies
+- **Cloudflare, Inc. (Turnstile)** — botcontrole op de formulieren van de Website
 
 Met onze verwerkers hebben wij verwerkersovereenkomsten gesloten zoals vereist door artikel 28 AVG.
+
+Cloudflare verwerkt de signalen van Turnstile als verwerker namens ons, en gebruikt deze daarnaast als zelfstandige verwerkingsverantwoordelijke om de botdetectie van Turnstile te verbeteren. Zie de [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/) van Cloudflare.
 
 Daarnaast delen wij de locatie van uw voedselbos (niet uw identiteit) met externe weergegevensaanbieders om lokale weersinformatie op te halen (zie artikel 3.4).
 
@@ -112,10 +121,12 @@ Wij verkopen uw persoonsgegevens niet en delen deze niet met derden voor marketi
 
 ## 7. Internationale Gegevensoverdrachten
 
-Onze Diensten worden gehost op Microsoft Azure binnen de Europese Unie. Waar onze dienstverleners beperkte gegevens buiten de Europese Economische Ruimte (EER) verwerken (bijvoorbeeld Microsoft voor support of servicebeheer, of Mailchimp voor het versturen van onze nieuwsbrief), zorgen wij voor adequate bescherming door:
+Onze Diensten worden gehost op Microsoft Azure binnen de Europese Unie. De formulieren van de Website worden verwerkt in de Azure-regio West-Europa, en Azure Communication Services verwerkt de e-mails van het contactformulier met Europa als datalocatie. Plausible verwerkt en bewaart de websitestatistieken in de EU.
+
+Waar onze dienstverleners beperkte gegevens buiten de Europese Economische Ruimte (EER) verwerken (bijvoorbeeld Microsoft voor support of servicebeheer, Mailchimp in de Verenigde Staten voor onze nieuwsbrief, of Cloudflare in de Verenigde Staten voor de botcontrole op onze formulieren), zorgen wij voor adequate bescherming door:
 
 - Naleving van de AVG en Standaard Contractuele Clausules door onze dienstverleners
-- Adequaatheidsbesluiten van de Europese Commissie (waaronder het EU-VS Data Privacy Framework, waar van toepassing)
+- Adequaatheidsbesluiten van de Europese Commissie (waaronder het EU-VS Data Privacy Framework, waar van toepassing; Mailchimp en Cloudflare zijn hieronder gecertificeerd)
 - Andere passende waarborgen zoals vereist door de wet
 
 ## 8. Gegevensbewaring
@@ -130,8 +141,10 @@ Specifieke bewaartermijnen:
 
 - **Accountgegevens**: Wanneer u uw account verwijdert (dit kan in de App), worden uw account en persoonlijke identificatiegegevens binnen 30 dagen verwijderd. Bijdragen zoals plant- en oogstregistraties kunnen in geanonimiseerde vorm worden bewaard, niet langer aan u gekoppeld.
 - **Gebruiks- en foutlogs**: 12 maanden
-- **Support- en contactcommunicatie**: 3 jaar
+- **Support- en contactcommunicatie** (waaronder berichten via het contactformulier): 3 jaar
 - **Nieuwsbriefinschrijving**: Tot u zich afmeldt
+- **Websitestatistieken**: Plausible bewaart geen IP-adressen, User-Agents of andere blijvende identificatoren; de dagelijkse sleutel wordt na 24 uur verwijderd
+- **Botcontrole**: Wij bewaren de gegevens van de Turnstile-controle zelf niet
 - **Financiële gegevens (indien van toepassing)**: 7 jaar (Nederlandse wettelijke vereiste)
 
 Als wij uw account beëindigen op grond van onze Algemene Voorwaarden (bijvoorbeeld wegens schendingen of na langdurige inactiviteit), gelden dezelfde verwijderingstermijnen vanaf de datum van beëindiging.
@@ -187,11 +200,13 @@ Dit hoofdstuk beschrijft ons gebruik van cookies en vergelijkbare technologieën
 
 ### 11.1 Website
 
-Onze Website gebruikt momenteel alleen strikt noodzakelijke technologieën om te functioneren en gebruikt **geen** analytics- of marketingcookies. Wij tonen geen cookiebanner omdat deze voor strikt noodzakelijke cookies niet vereist is.
+Onze Website plaatst **geen** analytics-, advertentie- of trackingcookies. Onze eigen websitecode plaatst geen cookies en slaat niets op in uw browser. Wij tonen geen cookiebanner, omdat wij alleen technologieën gebruiken waarvoor geen toestemming nodig is (zie hieronder).
 
-De aanmelding voor het betaprogramma op de Website gebruikt een ingesloten **Microsoft Forms**-formulier, dat eigen functionele cookies kan plaatsen. Zie de [privacyverklaring van Microsoft](https://privacy.microsoft.com) voor details.
+**Websitestatistieken (Plausible Analytics).** Op de Website meten wij het gebruik met Plausible Analytics van Plausible Insights OÜ (Estland). Plausible gebruikt geen cookies en slaat niets op in uw browser. Om bezoeken te kunnen tellen zonder u te volgen, berekent Plausible uit uw IP-adres en User-Agent een anonieme code met een sleutel die elke 24 uur wordt vervangen en verwijderd; uw IP-adres en User-Agent zelf worden niet opgeslagen. Wij zien alleen geaggregeerde statistieken, zoals bezochte pagina's, verwijzende websites, browser, besturingssysteem, apparaattype en land of regio, en nooit gegevens van individuele bezoekers. Plausible verwerkt en bewaart deze gegevens in de EU. Zie het [databeleid van Plausible](https://plausible.io/data-policy) voor details.
 
-Links naar social media (Instagram, LinkedIn, Facebook) op de Website zijn gewone links; er worden geen socialemediatrackers geladen op onze pagina's.
+**Botcontrole (Cloudflare Turnstile).** Het nieuwsbriefformulier en het contactformulier zijn beveiligd met Cloudflare Turnstile van Cloudflare, Inc. (Verenigde Staten), om spam en misbruik door geautomatiseerde programma's (bots) tegen te gaan. Turnstile wordt geladen op de pagina's waarop een van deze formulieren staat en voert in uw browser een korte controle uit. Daarvoor verwerkt Cloudflare technische signalen zoals uw IP-adres, de TLS-fingerprint en User-Agent van uw browser en de uitkomst van tests op kenmerken en gedrag van uw browser; Turnstile leest hiervoor gegevens uit uw browser uit en kan daarbij ook gegevens in uw browser opslaan. Turnstile leest niet mee met wat u in de formulieren invult. Na de controle stuurt uw browser een eenmalige code (token) mee met het formulier; onze server laat die code, samen met uw IP-adres, door Cloudflare controleren. Volgens Cloudflare zijn deze signalen strikt noodzakelijk om bots te detecteren en te blokkeren, en worden ze niet gebruikt om personen te identificeren, te profileren of te volgen. Wij beschouwen deze controle als strikt noodzakelijk voor de beveiliging van onze formulieren en vragen daarvoor geen toestemming. Zie de [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/) van Cloudflare voor details.
+
+Behalve Plausible en Cloudflare Turnstile laadt de Website geen scripts of inhoud van derden, zoals externe lettertypen, video's of socialemediaknoppen. Links naar social media (zoals Instagram, LinkedIn en Facebook) op de Website zijn gewone links; er worden geen socialemediatrackers geladen op onze pagina's.
 
 ### 11.2 App
 
@@ -207,7 +222,7 @@ De App gebruikt **geen**:
 
 ### 11.3 Wijzigingen in Ons Cookiegebruik
 
-Als wij in de toekomst analytics of andere niet-essentiële cookies introduceren, werken wij deze verklaring bij en vragen wij eerst uw toestemming, via een toestemmingsbanner op de Website of een melding in de App.
+Als wij in de toekomst cookies of vergelijkbare technologieën introduceren waarvoor toestemming nodig is, werken wij deze verklaring bij en vragen wij eerst uw toestemming, via een toestemmingsbanner op de Website of een melding in de App.
 
 ## 12. Privacy van Kinderen
 
@@ -215,7 +230,7 @@ Onze Diensten zijn niet bedoeld voor kinderen onder de 16. Wij verzamelen niet b
 
 ## 13. Marketingcommunicatie
 
-Met uw toestemming kunnen wij u marketingcommunicatie sturen over onze diensten, zoals onze nieuwsbrief. U kunt zich op elk moment afmelden door:
+Met uw toestemming kunnen wij u marketingcommunicatie sturen over onze diensten, zoals onze nieuwsbrief. Voor de nieuwsbrief gebruiken wij een dubbele opt-in: na uw inschrijving ontvangt u een e-mail met een bevestigingslink, en pas nadat u daarop hebt geklikt, ontvangt u de nieuwsbrief. Elke nieuwsbrief bevat een afmeldlink. U kunt zich op elk moment afmelden door:
 
 - De afmeldlink in e-mails te gebruiken
 - Meldingsinstellingen in de App aan te passen
@@ -259,5 +274,5 @@ E-mail: <hello@myfoodforest.nl>
 
 *Deze privacyverklaring is beschikbaar in het [Engels](./PRIVACY_EN.md).*
 
-**Documentversie**: 1.1  
-**Ingangsdatum**: 5 juni 2026
+**Documentversie**: 1.2  
+**Ingangsdatum**: 1 oktober 2026
