@@ -69,7 +69,7 @@ Wanneer u inlogt in de App, wordt de authenticatie afgehandeld door Microsoft En
 | Aanmaken en beheren van uw account, leveren van App-functionaliteit | Accountgegevens, profiel, inhoud | Overeenkomst (art. 6 lid 1 sub b) |
 | Positioneren van uw voedselbos en tonen van lokaal weer | Locatiegegevens | Toestemming (art. 6 lid 1 sub a) |
 | Versturen van de nieuwsbrief | E-mailadres, optioneel voornaam, taal | Toestemming (art. 6 lid 1 sub a) |
-| Beantwoorden van contactformulier- en supportverzoeken | Naam, e-mail, optioneel telefoonnummer en naam van uw voedselbos, onderwerpen, bericht | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
+| Beantwoorden van contactformulier- en supportverzoeken | Naam, e-mail, optioneel telefoonnummer en naam van uw voedselbos, onderwerpen, bericht, taal van de Website | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Beschermen van onze formulieren tegen spam en misbruik door bots (Cloudflare Turnstile) | IP-adres, technische browser- en verbindingsgegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Meten van het gebruik van de Website in geaggregeerde statistieken (Plausible Analytics) | Bezochte pagina's, verwijzende website, browser, besturingssysteem, apparaattype, land of regio | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Beveiligen van onze Diensten en voorkomen van fraude of misbruik | Loggegevens, accountgegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
@@ -142,8 +142,8 @@ Specifieke bewaartermijnen:
 - **Accountgegevens**: Wanneer u uw account verwijdert (dit kan in de App), worden uw account en persoonlijke identificatiegegevens binnen 30 dagen verwijderd. Bijdragen zoals plant- en oogstregistraties kunnen in geanonimiseerde vorm worden bewaard, niet langer aan u gekoppeld.
 - **Gebruiks- en foutlogs**: 12 maanden
 - **Support- en contactcommunicatie** (waaronder berichten via het contactformulier): 3 jaar
-- **Nieuwsbriefinschrijving**: Tot u zich afmeldt
-- **Websitestatistieken**: Plausible bewaart geen IP-adressen, User-Agents of andere blijvende identificatoren; de dagelijkse sleutel wordt na 24 uur verwijderd
+- **Nieuwsbriefinschrijving**: Tot u zich afmeldt. Een inschrijving die niet via de bevestigingsmail wordt bevestigd, wordt na 60 dagen door Mailchimp verwijderd
+- **Websitestatistieken**: Plausible bewaart geen IP-adressen, User-Agents of andere blijvende identificatoren; de dagelijkse sleutel wordt na 24 uur verwijderd. De geaggregeerde statistieken (zoals paginaweergaven per dag) bevatten geen persoonsgegevens en bewaren wij zolang wij Plausible gebruiken; ze worden verwijderd wanneer wij de Website uit ons Plausible-account verwijderen
 - **Botcontrole**: Wij bewaren de gegevens van de Turnstile-controle zelf niet
 - **Financiële gegevens (indien van toepassing)**: 7 jaar (Nederlandse wettelijke vereiste)
 

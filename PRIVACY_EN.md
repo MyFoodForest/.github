@@ -70,7 +70,7 @@ When you sign in to the App, authentication is handled by Microsoft Entra Extern
 | Creating and managing your account, providing App functionality | Account details, profile, content | Contract (Art. 6(1)(b)) |
 | Positioning your food forest and showing local weather | Location data | Consent (Art. 6(1)(a)) |
 | Sending the newsletter | Email address, optional first name, language | Consent (Art. 6(1)(a)) |
-| Responding to contact form submissions and support requests | Name, email, optional phone number and food forest name, topics, message | Legitimate interest (Art. 6(1)(f)) |
+| Responding to contact form submissions and support requests | Name, email, optional phone number and food forest name, topics, message, website language | Legitimate interest (Art. 6(1)(f)) |
 | Protecting our forms against spam and abuse by bots (Cloudflare Turnstile) | IP address, technical browser and connection data | Legitimate interest (Art. 6(1)(f)) |
 | Measuring use of the Website in aggregate statistics (Plausible Analytics) | Pages visited, referring website, browser, operating system, device type, country or region | Legitimate interest (Art. 6(1)(f)) |
 | Securing our Services and preventing fraud or abuse | Log data, account details | Legitimate interest (Art. 6(1)(f)) |
@@ -143,8 +143,8 @@ Specific retention periods:
 - **Account data**: When you delete your account (which you can do in the App), your account and personal identifiers are deleted within 30 days. Contributions such as plant and harvest records may be retained in anonymized form, no longer linked to you.
 - **Usage and error logs**: 12 months
 - **Support and contact communications** (including contact form messages): 3 years
-- **Newsletter subscription**: Until you unsubscribe
-- **Website statistics**: Plausible stores no IP addresses, User-Agents or other persistent identifiers; the daily key is deleted after 24 hours
+- **Newsletter subscription**: Until you unsubscribe. A sign-up that is not confirmed through the confirmation email is deleted by Mailchimp after 60 days
+- **Website statistics**: Plausible stores no IP addresses, User-Agents or other persistent identifiers; the daily key is deleted after 24 hours. The aggregated statistics (such as page views per day) contain no personal data and are kept for as long as we use Plausible; they are deleted when we remove the Website from our Plausible account
 - **Bot check**: We do not store the data of the Turnstile check ourselves
 - **Financial records (if applicable)**: 7 years (Dutch legal requirement)
 
