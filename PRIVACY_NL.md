@@ -1,14 +1,15 @@
 # Privacyverklaring
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 1 oktober 2026
+Laatst bijgewerkt: 16 oktober 2026
 
 ## 1. Inleiding
 
 My Food Forest B.V. ("wij", "ons" of "onze") respecteert uw privacy en zet zich in voor de bescherming van uw persoonsgegevens. Deze privacyverklaring legt uit hoe wij uw informatie verzamelen, gebruiken en beschermen wanneer u gebruikmaakt van:
 
 - onze voedselbos mobiele applicatie (de "App"), en
-- onze website op [www.myfoodforest.nl](https://www.myfoodforest.nl) (de "Website"),
+- onze website op [www.myfoodforest.nl](https://www.myfoodforest.nl) (de "Website"), en
+- ons webportaal op [myfoodforest.app](https://myfoodforest.app) (het "Portaal"),
 
 samen de "Diensten".
 
@@ -51,12 +52,14 @@ Een bericht via het contactformulier wordt als e-mail, verstuurd via Azure Commu
 - Loggegevens (IP-adres, toegangstijden, foutlogs) voor het beheren en beveiligen van onze Diensten
 - Websitestatistieken via Plausible Analytics, zonder cookies en zonder dat uw IP-adres wordt opgeslagen (zie artikel 11.1)
 - Technische browser- en verbindingsgegevens (zoals IP-adres, TLS-fingerprint en User-Agent) die Cloudflare Turnstile verwerkt om onze formulieren tegen bots te beschermen (zie artikel 11.1)
+- Foutmeldingen die de App en het Portaal naar Sentry sturen wanneer er iets misgaat: technische gegevens over de fout, de versie van de App of het Portaal en het type apparaat of de browser. Wij stellen Sentry zo in dat het standaard geen persoonsgegevens verzamelt, en wij gebruiken het niet voor performance tracing of profiling (zie artikel 6.1)
+- Technische verbindingsgegevens (zoals uw IP-adres) die de kaartaanbieders ontvangen wanneer kaartbeelden worden geladen of een adres wordt opgezocht: Mapbox in het Portaal, en PDOK in het Portaal en de App (zie artikelen 6.1 en 11.3)
 
 In de App gebruiken wij geen advertentie-identificaties (zoals de iOS IDFA of Android Advertising ID), device fingerprinting of tracking door derden. Op de Website gebruiken wij geen advertentie- of trackingcookies; de technische browserkenmerken die Cloudflare Turnstile uitleest, worden alleen gebruikt om bots tegen te houden.
 
 ### 3.3 Informatie van Inlogproviders
 
-Wanneer u inlogt in de App, wordt de authenticatie afgehandeld door Microsoft Entra External ID. Afhankelijk van de door u gekozen inlogmethode (zoals e-mail of Inloggen met Apple) ontvangen wij de basisgegevens die nodig zijn om uw account aan te maken en te beveiligen, zoals uw e-mailadres.
+Wanneer u inlogt in de App of het Portaal, wordt de authenticatie afgehandeld door Microsoft Entra External ID. Afhankelijk van de door u gekozen inlogmethode (zoals e-mail of Inloggen met Apple) ontvangen wij de basisgegevens die nodig zijn om uw account aan te maken en te beveiligen, zoals uw e-mailadres.
 
 ### 3.4 Informatie van Derden
 
@@ -73,7 +76,7 @@ Wanneer u inlogt in de App, wordt de authenticatie afgehandeld door Microsoft En
 | Beschermen van onze formulieren tegen spam en misbruik door bots (Cloudflare Turnstile) | IP-adres, technische browser- en verbindingsgegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Meten van het gebruik van de Website in geaggregeerde statistieken (Plausible Analytics) | Bezochte pagina's, verwijzende website, browser, besturingssysteem, apparaattype, land of regio | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Beveiligen van onze Diensten en voorkomen van fraude of misbruik | Loggegevens, accountgegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
-| Verbeteren van onze Diensten (foutlogs, diagnostiek) | Loggegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
+| Verbeteren van onze Diensten (foutlogs, diagnostiek) | Loggegevens, foutmeldingen (Sentry) | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Voldoen aan wettelijke verplichtingen | Voor zover vereist | Wettelijke verplichting (art. 6 lid 1 sub c) |
 
 Waar wij ons baseren op toestemming, kunt u deze op elk moment intrekken (zie artikel 9.7).
@@ -97,12 +100,16 @@ Externe bedrijven die ons helpen onze Diensten te exploiteren:
 - **Mailchimp (The Rocket Science Group LLC, onderdeel van Intuit Inc.)** — beheren van nieuwsbriefinschrijvingen (met dubbele opt-in) en versturen van onze nieuwsbrief
 - **Plausible Analytics (Plausible Insights OÜ, Estland)** — websitestatistieken zonder cookies
 - **Cloudflare, Inc. (Turnstile)** — botcontrole op de formulieren van de Website
+- **Functional Software, Inc. (Sentry)** — foutrapportage voor de App en het Portaal. Sentry slaat de meldingen op in de EU-regio (Duitsland)
+- **Mapbox Inc.** — kaartweergave in het Portaal. De kaartsoftware van Mapbox verzamelt daarnaast zelf gebruiksgegevens (zie artikel 11.3). Zie de [privacyverklaring van Mapbox](https://www.mapbox.com/legal/privacy)
 
 Met onze verwerkers hebben wij verwerkersovereenkomsten gesloten zoals vereist door artikel 28 AVG.
 
 Cloudflare verwerkt de signalen van Turnstile als verwerker namens ons, en gebruikt deze daarnaast als zelfstandige verwerkingsverantwoordelijke om de botdetectie van Turnstile te verbeteren. Zie de [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/) van Cloudflare.
 
 Daarnaast delen wij de locatie van uw voedselbos (niet uw identiteit) met externe weergegevensaanbieders om lokale weersinformatie op te halen (zie artikel 3.4).
+
+De App en het Portaal gebruiken ook de openbare kaart- en adresdiensten van PDOK, het Nederlandse platform voor openbare geodata, voor luchtfoto's en het opzoeken van adressen. Deze verzoeken gaan rechtstreeks vanuit uw browser of apparaat naar PDOK, niet via onze servers. PDOK ontvangt het gevraagde kaartgebied of de adresgegevens die u voor een opzoeking invoert, samen met uw IP-adres en standaard verzoekgegevens. PDOK is niet onze verwerker; PDOK gaat onder eigen verantwoordelijkheid met deze gegevens om. Zie de [privacyverklaring van PDOK](https://www.pdok.nl/privacy).
 
 ### 6.2 Wettelijke Vereisten
 
@@ -196,7 +203,7 @@ Hoewel wij ernaar streven uw gegevens te beschermen, is geen enkele methode van 
 
 ## 11. Cookies en Vergelijkbare Technologieën
 
-Dit hoofdstuk beschrijft ons gebruik van cookies en vergelijkbare technologieën op de Website en in de App, in overeenstemming met de AVG en artikel 11.7a van de Telecommunicatiewet.
+Dit hoofdstuk beschrijft ons gebruik van cookies en vergelijkbare technologieën op de Website, in de App en in het Portaal, in overeenstemming met de AVG en artikel 11.7a van de Telecommunicatiewet.
 
 ### 11.1 Website
 
@@ -220,7 +227,31 @@ De App gebruikt **geen**:
 
 **Rechtsgrondslag**: Strikt noodzakelijke opslag is vrijgesteld van het toestemmingsvereiste; voor de onderliggende verwerking baseren wij ons op de uitvoering van onze overeenkomst met u en op ons gerechtvaardigd belang bij een veilige, goed functionerende dienst.
 
-### 11.3 Wijzigingen in Ons Cookiegebruik
+### 11.3 Portaal
+
+Het Portaal plaatst de cookies en slaat de browsergegevens op die hieronder staan. Wij gebruiken in het Portaal geen advertentie- of analyticscookies.
+
+**Inloggen (strikt noodzakelijk).** Het Portaal gebruikt Auth.js om u in te laten loggen via Microsoft Entra External ID (zie artikel 3.3). Daarvoor plaatst het cookies vanaf uw eerste verzoek, nog voordat u inlogt:
+
+| Cookie | Doel |
+|--------|------|
+| `__Host-authjs.csrf-token` | Beschermt het inloggen tegen vervalste verzoeken |
+| `__Secure-authjs.callback-url` | Onthoudt de pagina waar u was, zodat u er na het inloggen naar terugkeert |
+| Auth.js-sessiecookie | Houdt u ingelogd |
+
+Deze cookies zijn strikt noodzakelijk om in te loggen en worden niet gebruikt om u te volgen.
+
+**Ontwikkelaarsmodus (alleen als u deze aanzet).** Als u in het Portaal de ontwikkelaarsmodus aanzet, slaat het Portaal die keuze, en een bijbehorende instelling voor een ontwikkelaarstool, op in de `localStorage` van uw browser (`mff.developer-mode` en `mff.rq-devtools`). Er wordt niets opgeslagen tenzij u de modus aanzet. De gegevens blijven op uw apparaat en worden niet gebruikt om u te volgen.
+
+**Kaarten (Mapbox).** Het Portaal toont kaarten met de kaartsoftware van Mapbox. Deze software slaat een anonieme identificatiecode op in de `localStorage` van uw browser (onder een naam die begint met `mapbox.eventData`) en stuurt op elke pagina met een kaart anonieme gebruiksgegevens naar Mapbox (`events.mapbox.com`). Dit hoort bij de kaartdienst van Mapbox. Wij tonen hiervoor geen toestemmingsbanner. Zie de [privacyverklaring van Mapbox](https://www.mapbox.com/legal/privacy) voor details.
+
+**Luchtfoto's en adressen opzoeken (PDOK).** Het Portaal laadt luchtfoto's en zoekt adressen op bij PDOK. Hierbij wordt niets in uw browser opgeslagen, maar PDOK ontvangt wel uw IP-adres (zie artikel 6.1).
+
+**Foutrapportage (Sentry).** Het Portaal meldt fouten aan Sentry. Hierbij wordt niets in uw browser opgeslagen. In het Portaal hebben wij de performance tracing en sessietracking van Sentry uitgezet, en verwijderen wij zoektermen uit paginaadressen en vervangen wij e-mailadressen in foutteksten voordat een melding wordt verstuurd.
+
+**Rechtsgrondslag**: Strikt noodzakelijke opslag is vrijgesteld van het toestemmingsvereiste; voor de onderliggende verwerking baseren wij ons op de uitvoering van onze overeenkomst met u en op ons gerechtvaardigd belang bij een veilige, goed functionerende dienst.
+
+### 11.4 Wijzigingen in Ons Cookiegebruik
 
 Als wij in de toekomst cookies of vergelijkbare technologieën introduceren waarvoor toestemming nodig is, werken wij deze verklaring bij en vragen wij eerst uw toestemming, via een toestemmingsbanner op de Website of een melding in de App.
 
@@ -274,5 +305,5 @@ E-mail: <hello@myfoodforest.nl>
 
 *Deze privacyverklaring is beschikbaar in het [Engels](./PRIVACY_EN.md).*
 
-**Documentversie**: 1.2  
-**Ingangsdatum**: 1 oktober 2026
+**Documentversie**: 1.3  
+**Ingangsdatum**: 16 oktober 2026
