@@ -1,14 +1,15 @@
 # Privacy Policy
 
 **My Food Forest B.V.**  
-Last updated: October 1, 2026
+Last updated: October 16, 2026
 
 ## 1. Introduction
 
 My Food Forest B.V. ("we," "our," or "us") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and protect your information when you use:
 
 - our food forest mobile application (the "App"), and
-- our website at [www.myfoodforest.nl](https://www.myfoodforest.nl) (the "Website"),
+- our website at [www.myfoodforest.nl](https://www.myfoodforest.nl) (the "Website"), and
+- our web portal at [myfoodforest.app](https://myfoodforest.app) (the "Portal"),
 
 together the "Services".
 
@@ -52,12 +53,14 @@ A message sent through the contact form is delivered as an email, sent through M
 - Log data (IP address, access times, error logs) for operating and securing our Services
 - Website statistics through Plausible Analytics, without cookies and without storing your IP address (see Section 11.1)
 - Technical browser and connection data (such as IP address, TLS fingerprint and User-Agent) that Cloudflare Turnstile processes to protect our forms against bots (see Section 11.1)
+- Error reports that the App and the Portal send to Sentry when something fails: technical details about the error, the version of the App or Portal, and the device or browser type. We configure Sentry not to collect personal data by default, and we do not use it for performance tracing or profiling (see Section 6.1)
+- Technical connection data (such as your IP address) that the map providers receive when map imagery is loaded or an address is looked up: Mapbox in the Portal, and PDOK in the Portal and the App (see Sections 6.1 and 11.3)
 
 In the App, we do not use advertising identifiers (such as the iOS IDFA or Android Advertising ID), device fingerprinting, or third-party behavioral tracking. On the Website, we do not use advertising or tracking cookies; the technical browser characteristics that Cloudflare Turnstile reads are used only to stop bots.
 
 ### 3.3 Information from Sign-In Providers
 
-When you sign in to the App, authentication is handled by Microsoft Entra External ID. Depending on the sign-in method you choose (such as email or Sign in with Apple), we receive the basic details needed to create and secure your account, such as your email address.
+When you sign in to the App or the Portal, authentication is handled by Microsoft Entra External ID. Depending on the sign-in method you choose (such as email or Sign in with Apple), we receive the basic details needed to create and secure your account, such as your email address.
 
 ### 3.4 Information from Third Parties
 
@@ -74,7 +77,7 @@ When you sign in to the App, authentication is handled by Microsoft Entra Extern
 | Protecting our forms against spam and abuse by bots (Cloudflare Turnstile) | IP address, technical browser and connection data | Legitimate interest (Art. 6(1)(f)) |
 | Measuring use of the Website in aggregate statistics (Plausible Analytics) | Pages visited, referring website, browser, operating system, device type, country or region | Legitimate interest (Art. 6(1)(f)) |
 | Securing our Services and preventing fraud or abuse | Log data, account details | Legitimate interest (Art. 6(1)(f)) |
-| Improving our Services (error logs, diagnostics) | Log data | Legitimate interest (Art. 6(1)(f)) |
+| Improving our Services (error logs, diagnostics) | Log data, error reports (Sentry) | Legitimate interest (Art. 6(1)(f)) |
 | Complying with legal obligations | As required | Legal obligation (Art. 6(1)(c)) |
 
 Where we rely on consent, you can withdraw it at any time (see Section 9.7).
@@ -98,12 +101,16 @@ Third-party companies that help us operate our Services:
 - **Mailchimp (The Rocket Science Group LLC, part of Intuit Inc.)** — managing newsletter subscriptions (with double opt-in) and sending our newsletter
 - **Plausible Analytics (Plausible Insights OÜ, Estonia)** — cookieless website statistics
 - **Cloudflare, Inc. (Turnstile)** — bot check on the Website's forms
+- **Functional Software, Inc. (Sentry)** — error reporting for the App and the Portal. Sentry stores the reports in its EU region (Germany)
+- **Mapbox Inc.** — map display in the Portal. Mapbox's map software also collects usage data of its own (see Section 11.3). See Mapbox's [privacy policy](https://www.mapbox.com/legal/privacy)
 
 We have data processing agreements in place with our processors as required by Article 28 GDPR.
 
 Cloudflare processes the Turnstile signals as a processor on our behalf, and also uses them as an independent controller to improve Turnstile's bot detection. See Cloudflare's [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/).
 
 We also share the location of your food forest (not your identity) with external weather data providers to retrieve local weather information (see Section 3.4).
+
+The App and the Portal also use the public map and address services of PDOK, the Dutch public geo-data platform, for aerial photographs and address lookups. These requests go directly from your browser or device to PDOK, not through our servers. PDOK receives the map area requested or the address details you enter for a lookup, together with your IP address and standard request data. PDOK is not our processor; it handles this data under its own responsibility. See the [PDOK privacy statement](https://www.pdok.nl/privacy).
 
 ### 6.2 Legal Requirements
 
@@ -197,7 +204,7 @@ While we strive to protect your data, no method of transmission or storage is 10
 
 ## 11. Cookies and Similar Technologies
 
-This section describes our use of cookies and similar technologies on the Website and in the App, in accordance with the GDPR and Article 11.7a of the Dutch Telecommunications Act (Telecommunicatiewet).
+This section describes our use of cookies and similar technologies on the Website, in the App and in the Portal, in accordance with the GDPR and Article 11.7a of the Dutch Telecommunications Act (Telecommunicatiewet).
 
 ### 11.1 Website
 
@@ -221,7 +228,31 @@ The App does **not** use:
 
 **Legal basis**: Strictly necessary storage is exempt from the consent requirement; for the underlying processing we rely on the performance of our contract with you and on our legitimate interest in providing a secure, functioning service.
 
-### 11.3 Changes to Our Use of Cookies
+### 11.3 Portal
+
+The Portal sets the cookies and stores the browser data listed below. We do not use advertising or analytics cookies in the Portal.
+
+**Login (strictly necessary).** The Portal uses Auth.js to sign you in through Microsoft Entra External ID (see Section 3.3). For this, it sets cookies from your first request, before you sign in:
+
+| Cookie | Purpose |
+|--------|---------|
+| `__Host-authjs.csrf-token` | Protects the sign-in against forged requests |
+| `__Secure-authjs.callback-url` | Remembers the page you were on, so you return to it after signing in |
+| Auth.js session cookie | Keeps you signed in |
+
+These cookies are strictly necessary for signing in and are not used to track you.
+
+**Developer mode (only if you turn it on).** If you switch on developer mode in the Portal, the Portal stores this choice, and a related setting for a developer tool, in your browser's `localStorage` (`mff.developer-mode` and `mff.rq-devtools`). Nothing is stored unless you turn it on. The data stays on your device and is not used to track you.
+
+**Maps (Mapbox).** The Portal shows maps with Mapbox's map software. This software stores an anonymous identifier in your browser's `localStorage` (under a name starting with `mapbox.eventData`) and sends anonymous usage data to Mapbox (`events.mapbox.com`) on every page that shows a map. This is part of the Mapbox map service. We do not show a consent banner for it. See Mapbox's [privacy policy](https://www.mapbox.com/legal/privacy) for details.
+
+**Aerial photographs and address lookup (PDOK).** The Portal loads aerial photographs and looks up addresses at PDOK. This stores nothing in your browser, but PDOK receives your IP address (see Section 6.1).
+
+**Error reporting (Sentry).** The Portal reports errors to Sentry. This stores nothing in your browser. In the Portal, we have switched off Sentry's performance tracing and its session tracking, and we strip search terms from page addresses and replace email addresses in error text before a report is sent.
+
+**Legal basis**: Strictly necessary storage is exempt from the consent requirement; for the underlying processing we rely on the performance of our contract with you and on our legitimate interest in providing a secure, functioning service.
+
+### 11.4 Changes to Our Use of Cookies
 
 If we introduce cookies or similar technologies that require consent in the future, we will update this policy and ask for your consent first, via a consent banner on the Website or an in-app prompt.
 
@@ -275,5 +306,5 @@ Email: <hello@myfoodforest.nl>
 
 *This privacy policy is available in [Dutch](./PRIVACY_NL.md).*
 
-**Document Version**: 1.2  
-**Effective Date**: October 1, 2026
+**Document Version**: 1.3  
+**Effective Date**: October 16, 2026
