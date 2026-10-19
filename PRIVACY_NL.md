@@ -1,7 +1,7 @@
 # Privacyverklaring
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 16 oktober 2026
+Laatst bijgewerkt: 19 oktober 2026
 
 ## 1. Inleiding
 
@@ -9,7 +9,8 @@ My Food Forest B.V. ("wij", "ons" of "onze") respecteert uw privacy en zet zich 
 
 - onze voedselbos mobiele applicatie (de "App"), en
 - onze website op [www.myfoodforest.nl](https://www.myfoodforest.nl) (de "Website"), en
-- ons webportaal op [myfoodforest.app](https://myfoodforest.app) (het "Portaal"),
+- ons webportaal op [myfoodforest.app](https://myfoodforest.app) (het "Portaal"), en
+- onze openbare plantendatabase op [plantdatabase.myfoodforest.io](https://plantdatabase.myfoodforest.io) (de "Plantendatabase"),
 
 samen de "Diensten".
 
@@ -48,12 +49,13 @@ Een bericht via het contactformulier wordt als e-mail, verstuurd via Azure Commu
 ### 3.2 Automatisch Verzamelde Informatie
 
 - Apparaatinformatie (apparaattype, besturingssysteem)
-- Locatiegegevens (alleen als u toestemming verleent, om uw voedselbos te positioneren en lokale weersinformatie te tonen)
+- Locatiegegevens (alleen als u toestemming verleent, om uw voedselbos en uw planten te positioneren)
 - Loggegevens (IP-adres, toegangstijden, foutlogs) voor het beheren en beveiligen van onze Diensten
 - Websitestatistieken via Plausible Analytics, zonder cookies en zonder dat uw IP-adres wordt opgeslagen (zie artikel 11.1)
 - Technische browser- en verbindingsgegevens (zoals IP-adres, TLS-fingerprint en User-Agent) die Cloudflare Turnstile verwerkt om onze formulieren tegen bots te beschermen (zie artikel 11.1)
 - Foutmeldingen die de App en het Portaal naar Sentry sturen wanneer er iets misgaat: technische gegevens over de fout, de versie van de App of het Portaal en het type apparaat of de browser. Wij stellen Sentry zo in dat het standaard geen persoonsgegevens verzamelt, en wij gebruiken het niet voor performance tracing of profiling (zie artikel 6.1)
 - Technische verbindingsgegevens (zoals uw IP-adres) die de kaartaanbieders ontvangen wanneer kaartbeelden worden geladen of een adres wordt opgezocht: Mapbox in het Portaal, en PDOK in het Portaal en de App (zie artikelen 6.1 en 11.3)
+- Pushmeldingen: als u pushmeldingen toestaat, registreert de App een apparaat-token (uitgegeven door Apple of Google), het platform (iOS of Android) en de versie van de App bij onze meldingsdienst, zodat wij u bijvoorbeeld kunnen berichten wanneer er iets te oogsten is (zie artikelen 6.1 en 9.7)
 
 In de App gebruiken wij geen advertentie-identificaties (zoals de iOS IDFA of Android Advertising ID), device fingerprinting of tracking door derden. Op de Website gebruiken wij geen advertentie- of trackingcookies; de technische browserkenmerken die Cloudflare Turnstile uitleest, worden alleen gebruikt om bots tegen te houden.
 
@@ -61,16 +63,14 @@ In de App gebruiken wij geen advertentie-identificaties (zoals de iOS IDFA of An
 
 Wanneer u inlogt in de App of het Portaal, wordt de authenticatie afgehandeld door Microsoft Entra External ID. Afhankelijk van de door u gekozen inlogmethode (zoals e-mail of Inloggen met Apple) ontvangen wij de basisgegevens die nodig zijn om uw account aan te maken en te beveiligen, zoals uw e-mailadres.
 
-### 3.4 Informatie van Derden
-
-- Weergegevens van externe diensten voor de locatie van uw voedselbos (wij versturen de locatie, niet uw identiteit)
-
 ## 4. Doeleinden en Rechtsgrondslag voor Verwerking
 
 | Doel | Gegevens | Rechtsgrondslag (art. 6 AVG) |
 |------|----------|------------------------------|
 | Aanmaken en beheren van uw account, leveren van App-functionaliteit | Accountgegevens, profiel, inhoud | Overeenkomst (art. 6 lid 1 sub b) |
-| Positioneren van uw voedselbos en tonen van lokaal weer | Locatiegegevens | Toestemming (art. 6 lid 1 sub a) |
+| Positioneren van uw voedselbos en uw planten | Locatiegegevens | Toestemming (art. 6 lid 1 sub a) |
+| Versturen van pushmeldingen die u heeft aangezet | Apparaat-token, platform, versie van de App | Toestemming (art. 6 lid 1 sub a), via de meldingsinstellingen van uw apparaat |
+| Afsluiten, factureren en beheren van een betaald abonnement | Accountgegevens, gekozen plan, factuur- en betaalgegevens bij Stripe | Overeenkomst (art. 6 lid 1 sub b); bewaren van facturen: wettelijke verplichting (art. 6 lid 1 sub c) |
 | Versturen van de nieuwsbrief | E-mailadres, optioneel voornaam, taal | Toestemming (art. 6 lid 1 sub a) |
 | Beantwoorden van contactformulier- en supportverzoeken | Naam, e-mail, optioneel telefoonnummer en naam van uw voedselbos, onderwerpen, bericht, taal van de Website | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
 | Beschermen van onze formulieren tegen spam en misbruik door bots (Cloudflare Turnstile) | IP-adres, technische browser- en verbindingsgegevens | Gerechtvaardigd belang (art. 6 lid 1 sub f) |
@@ -102,12 +102,12 @@ Externe bedrijven die ons helpen onze Diensten te exploiteren:
 - **Cloudflare, Inc. (Turnstile)** — botcontrole op de formulieren van de Website
 - **Functional Software, Inc. (Sentry)** — foutrapportage voor de App en het Portaal. Sentry slaat de meldingen op in de EU-regio (Duitsland)
 - **Mapbox Inc.** — kaartweergave in het Portaal. De kaartsoftware van Mapbox verzamelt daarnaast zelf gebruiksgegevens (zie artikel 11.3). Zie de [privacyverklaring van Mapbox](https://www.mapbox.com/legal/privacy)
+- **Microsoft Azure Notification Hubs** — afleveren van pushmeldingen aan uw apparaat, via Apple Push Notification service (Apple Inc.) op iOS en Firebase Cloud Messaging (Google Ireland Ltd.) op Android. Apple en Google ontvangen daarbij het apparaat-token en de inhoud van de melding
+- **Stripe Payments Europe, Ltd. (Ierland)** — betalingen en facturatie van abonnementen. Uw betaalgegevens (zoals IBAN of kaartnummer) voert u rechtstreeks bij Stripe in; wij ontvangen en bewaren die niet. Zie de [privacyverklaring van Stripe](https://stripe.com/privacy)
 
 Met onze verwerkers hebben wij verwerkersovereenkomsten gesloten zoals vereist door artikel 28 AVG.
 
 Cloudflare verwerkt de signalen van Turnstile als verwerker namens ons, en gebruikt deze daarnaast als zelfstandige verwerkingsverantwoordelijke om de botdetectie van Turnstile te verbeteren. Zie de [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/) van Cloudflare.
-
-Daarnaast delen wij de locatie van uw voedselbos (niet uw identiteit) met externe weergegevensaanbieders om lokale weersinformatie op te halen (zie artikel 3.4).
 
 De App en het Portaal gebruiken ook de openbare kaart- en adresdiensten van PDOK, het Nederlandse platform voor openbare geodata, voor luchtfoto's en het opzoeken van adressen. Deze verzoeken gaan rechtstreeks vanuit uw browser of apparaat naar PDOK, niet via onze servers. PDOK ontvangt het gevraagde kaartgebied of de adresgegevens die u voor een opzoeking invoert, samen met uw IP-adres en standaard verzoekgegevens. PDOK is niet onze verwerker; PDOK gaat onder eigen verantwoordelijkheid met deze gegevens om. Zie de [privacyverklaring van PDOK](https://www.pdok.nl/privacy).
 
@@ -128,12 +128,12 @@ Wij verkopen uw persoonsgegevens niet en delen deze niet met derden voor marketi
 
 ## 7. Internationale Gegevensoverdrachten
 
-Onze Diensten worden gehost op Microsoft Azure binnen de Europese Unie. De formulieren van de Website worden verwerkt in de Azure-regio West-Europa, en Azure Communication Services verwerkt de e-mails van het contactformulier met Europa als datalocatie. Plausible verwerkt en bewaart de websitestatistieken in de EU.
+Onze Diensten worden gehost op Microsoft Azure binnen de Europese Unie. De gegevens van uw account, uw voedselbos, uw planten en uw oogsten worden opgeslagen in de Azure-regio **Zweden-Centraal**. De Website en haar formulieren draaien in de Azure-regio **West-Europa**, net als de dienst die pushmeldingen aflevert. Azure Communication Services verwerkt de e-mails van het contactformulier met Europa als datalocatie, Sentry bewaart foutmeldingen in Duitsland en Plausible verwerkt en bewaart de websitestatistieken in de EU.
 
-Waar onze dienstverleners beperkte gegevens buiten de Europese Economische Ruimte (EER) verwerken (bijvoorbeeld Microsoft voor support of servicebeheer, Mailchimp in de Verenigde Staten voor onze nieuwsbrief, of Cloudflare in de Verenigde Staten voor de botcontrole op onze formulieren), zorgen wij voor adequate bescherming door:
+Waar onze dienstverleners beperkte gegevens buiten de Europese Economische Ruimte (EER) verwerken (bijvoorbeeld Microsoft voor support of servicebeheer, Mailchimp in de Verenigde Staten voor onze nieuwsbrief, Cloudflare in de Verenigde Staten voor de botcontrole op onze formulieren, Stripe, Inc. in de Verenigde Staten voor betalingen, of Apple en Google voor het afleveren van pushmeldingen), zorgen wij voor adequate bescherming door:
 
 - Naleving van de AVG en Standaard Contractuele Clausules door onze dienstverleners
-- Adequaatheidsbesluiten van de Europese Commissie (waaronder het EU-VS Data Privacy Framework, waar van toepassing; Mailchimp en Cloudflare zijn hieronder gecertificeerd)
+- Adequaatheidsbesluiten van de Europese Commissie (waaronder het EU-VS Data Privacy Framework, waar van toepassing; Mailchimp, Cloudflare, Stripe, Apple en Google zijn hieronder gecertificeerd)
 - Andere passende waarborgen zoals vereist door de wet
 
 ## 8. Gegevensbewaring
@@ -147,7 +147,8 @@ Wij bewaren uw persoonsgegevens zolang als nodig om:
 Specifieke bewaartermijnen:
 
 - **Accountgegevens**: Wanneer u uw account verwijdert (dit kan in de App), worden uw account en persoonlijke identificatiegegevens binnen 30 dagen verwijderd. Bijdragen zoals plant- en oogstregistraties kunnen in geanonimiseerde vorm worden bewaard, niet langer aan u gekoppeld.
-- **Gebruiks- en foutlogs**: 12 maanden
+- **Gebruiks- en foutlogs**: maximaal 90 dagen
+- **Apparaat-tokens voor pushmeldingen**: tot u de meldingen uitzet, de App verwijdert of uw account verwijdert; registraties die niet meer werken, ruimen wij periodiek op
 - **Support- en contactcommunicatie** (waaronder berichten via het contactformulier): 3 jaar
 - **Nieuwsbriefinschrijving**: Tot u zich afmeldt. Een inschrijving die niet via de bevestigingsmail wordt bevestigd, wordt na 60 dagen door Mailchimp verwijderd
 - **Websitestatistieken**: Plausible bewaart geen IP-adressen, User-Agents of andere blijvende identificatoren; de dagelijkse sleutel wordt na 24 uur verwijderd. De geaggregeerde statistieken (zoals paginaweergaven per dag) bevatten geen persoonsgegevens en bewaren wij zolang wij Plausible gebruiken; ze worden verwijderd wanneer wij de Website uit ons Plausible-account verwijderen
@@ -186,7 +187,7 @@ Bezwaar maken tegen verwerking op basis van gerechtvaardigd belang of voor direc
 
 ### 9.7 Toestemming Intrekken
 
-Toestemming op elk moment intrekken waar verwerking gebaseerd is op toestemming (bijvoorbeeld locatietoegang via uw apparaatinstellingen, of de nieuwsbrief via de afmeldlink).
+Toestemming op elk moment intrekken waar verwerking gebaseerd is op toestemming (bijvoorbeeld locatietoegang of pushmeldingen via uw apparaatinstellingen, of de nieuwsbrief via de afmeldlink).
 
 Om deze rechten uit te oefenen, neem contact met ons op via <hello@myfoodforest.nl>. Wij zullen binnen één maand na ontvangst van uw verzoek reageren. Bij complexe of talrijke verzoeken kunnen wij deze termijn met maximaal twee maanden verlengen; in dat geval informeren wij u hierover binnen de eerste maand.
 
@@ -203,7 +204,7 @@ Hoewel wij ernaar streven uw gegevens te beschermen, is geen enkele methode van 
 
 ## 11. Cookies en Vergelijkbare Technologieën
 
-Dit hoofdstuk beschrijft ons gebruik van cookies en vergelijkbare technologieën op de Website, in de App en in het Portaal, in overeenstemming met de AVG en artikel 11.7a van de Telecommunicatiewet.
+Dit hoofdstuk beschrijft ons gebruik van cookies en vergelijkbare technologieën op de Website, in de App, in het Portaal en in de Plantendatabase, in overeenstemming met de AVG en artikel 11.7a van de Telecommunicatiewet.
 
 ### 11.1 Website
 
@@ -251,7 +252,11 @@ Deze cookies zijn strikt noodzakelijk om in te loggen en worden niet gebruikt om
 
 **Rechtsgrondslag**: Strikt noodzakelijke opslag is vrijgesteld van het toestemmingsvereiste; voor de onderliggende verwerking baseren wij ons op de uitvoering van onze overeenkomst met u en op ons gerechtvaardigd belang bij een veilige, goed functionerende dienst.
 
-### 11.4 Wijzigingen in Ons Cookiegebruik
+### 11.4 Plantendatabase
+
+De Plantendatabase plaatst geen cookies, slaat niets op in uw browser en gebruikt geen analytics- of advertentietechnologie.
+
+### 11.5 Wijzigingen in Ons Cookiegebruik
 
 Als wij in de toekomst cookies of vergelijkbare technologieën introduceren waarvoor toestemming nodig is, werken wij deze verklaring bij en vragen wij eerst uw toestemming, via een toestemmingsbanner op de Website of een melding in de App.
 
@@ -305,5 +310,5 @@ E-mail: <hello@myfoodforest.nl>
 
 *Deze privacyverklaring is beschikbaar in het [Engels](./PRIVACY_EN.md).*
 
-**Documentversie**: 1.3  
-**Ingangsdatum**: 16 oktober 2026
+**Documentversie**: 1.4  
+**Ingangsdatum**: 19 oktober 2026
