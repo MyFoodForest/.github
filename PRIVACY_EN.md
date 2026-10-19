@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **My Food Forest B.V.**  
-Last updated: October 16, 2026
+Last updated: October 19, 2026
 
 ## 1. Introduction
 
@@ -9,7 +9,8 @@ My Food Forest B.V. ("we," "our," or "us") respects your privacy and is committe
 
 - our food forest mobile application (the "App"), and
 - our website at [www.myfoodforest.nl](https://www.myfoodforest.nl) (the "Website"), and
-- our web portal at [myfoodforest.app](https://myfoodforest.app) (the "Portal"),
+- our web portal at [myfoodforest.app](https://myfoodforest.app) (the "Portal"), and
+- our public plant database at [plantdatabase.myfoodforest.io](https://plantdatabase.myfoodforest.io) (the "Plant Database"),
 
 together the "Services".
 
@@ -49,12 +50,13 @@ A message sent through the contact form is delivered as an email, sent through M
 ### 3.2 Information Automatically Collected
 
 - Device information (device type, operating system)
-- Location data (only if you grant permission, to position your food forest and provide local weather information)
+- Location data (only if you grant permission, to position your food forest and your plants)
 - Log data (IP address, access times, error logs) for operating and securing our Services
 - Website statistics through Plausible Analytics, without cookies and without storing your IP address (see Section 11.1)
 - Technical browser and connection data (such as IP address, TLS fingerprint and User-Agent) that Cloudflare Turnstile processes to protect our forms against bots (see Section 11.1)
 - Error reports that the App and the Portal send to Sentry when something fails: technical details about the error, the version of the App or Portal, and the device or browser type. We configure Sentry not to collect personal data by default, and we do not use it for performance tracing or profiling (see Section 6.1)
 - Technical connection data (such as your IP address) that the map providers receive when map imagery is loaded or an address is looked up: Mapbox in the Portal, and PDOK in the Portal and the App (see Sections 6.1 and 11.3)
+- Push notifications: if you allow push notifications, the App registers a device token (issued by Apple or Google), the platform (iOS or Android) and the version of the App with our notification service, so that we can notify you, for example, when something is ready to harvest (see Sections 6.1 and 9.7)
 
 In the App, we do not use advertising identifiers (such as the iOS IDFA or Android Advertising ID), device fingerprinting, or third-party behavioral tracking. On the Website, we do not use advertising or tracking cookies; the technical browser characteristics that Cloudflare Turnstile reads are used only to stop bots.
 
@@ -62,16 +64,14 @@ In the App, we do not use advertising identifiers (such as the iOS IDFA or Andro
 
 When you sign in to the App or the Portal, authentication is handled by Microsoft Entra External ID. Depending on the sign-in method you choose (such as email or Sign in with Apple), we receive the basic details needed to create and secure your account, such as your email address.
 
-### 3.4 Information from Third Parties
-
-- Weather data from external services for your food forest's location (we send the location, not your identity)
-
 ## 4. Purposes and Legal Basis for Processing
 
 | Purpose | Data | Legal basis (Art. 6 GDPR) |
 |---------|------|---------------------------|
 | Creating and managing your account, providing App functionality | Account details, profile, content | Contract (Art. 6(1)(b)) |
-| Positioning your food forest and showing local weather | Location data | Consent (Art. 6(1)(a)) |
+| Positioning your food forest and your plants | Location data | Consent (Art. 6(1)(a)) |
+| Sending the push notifications you have turned on | Device token, platform, App version | Consent (Art. 6(1)(a)), via your device's notification settings |
+| Taking out, invoicing and managing a paid subscription | Account details, chosen plan, invoice and payment details held by Stripe | Contract (Art. 6(1)(b)); keeping invoices: legal obligation (Art. 6(1)(c)) |
 | Sending the newsletter | Email address, optional first name, language | Consent (Art. 6(1)(a)) |
 | Responding to contact form submissions and support requests | Name, email, optional phone number and food forest name, topics, message, website language | Legitimate interest (Art. 6(1)(f)) |
 | Protecting our forms against spam and abuse by bots (Cloudflare Turnstile) | IP address, technical browser and connection data | Legitimate interest (Art. 6(1)(f)) |
@@ -103,12 +103,12 @@ Third-party companies that help us operate our Services:
 - **Cloudflare, Inc. (Turnstile)** — bot check on the Website's forms
 - **Functional Software, Inc. (Sentry)** — error reporting for the App and the Portal. Sentry stores the reports in its EU region (Germany)
 - **Mapbox Inc.** — map display in the Portal. Mapbox's map software also collects usage data of its own (see Section 11.3). See Mapbox's [privacy policy](https://www.mapbox.com/legal/privacy)
+- **Microsoft Azure Notification Hubs** — delivering push notifications to your device, through the Apple Push Notification service (Apple Inc.) on iOS and Firebase Cloud Messaging (Google Ireland Ltd.) on Android. Apple and Google receive the device token and the content of the notification
+- **Stripe Payments Europe, Ltd. (Ireland)** — payments and invoicing of subscriptions. You enter your payment details (such as IBAN or card number) directly with Stripe; we do not receive or store them. See Stripe's [privacy policy](https://stripe.com/privacy)
 
 We have data processing agreements in place with our processors as required by Article 28 GDPR.
 
 Cloudflare processes the Turnstile signals as a processor on our behalf, and also uses them as an independent controller to improve Turnstile's bot detection. See Cloudflare's [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/).
-
-We also share the location of your food forest (not your identity) with external weather data providers to retrieve local weather information (see Section 3.4).
 
 The App and the Portal also use the public map and address services of PDOK, the Dutch public geo-data platform, for aerial photographs and address lookups. These requests go directly from your browser or device to PDOK, not through our servers. PDOK receives the map area requested or the address details you enter for a lookup, together with your IP address and standard request data. PDOK is not our processor; it handles this data under its own responsibility. See the [PDOK privacy statement](https://www.pdok.nl/privacy).
 
@@ -129,12 +129,12 @@ We do not sell your personal data, and we do not share it with third parties for
 
 ## 7. International Data Transfers
 
-Our Services are hosted on Microsoft Azure in the European Union. The Website's forms are processed in the Azure West Europe region, and Azure Communication Services processes the contact form emails with Europe as its data location. Plausible processes and stores the website statistics in the EU.
+Our Services are hosted on Microsoft Azure in the European Union. The data of your account, your food forest, your plants and your harvests is stored in the Azure **Sweden Central** region. The Website and its forms run in the Azure **West Europe** region, as does the service that delivers push notifications. Azure Communication Services processes the contact form emails with Europe as its data location, Sentry stores error reports in Germany, and Plausible processes and stores the website statistics in the EU.
 
-Where our service providers process limited data outside the European Economic Area (EEA) (for example, Microsoft for support or service operations, Mailchimp in the United States for our newsletter, or Cloudflare in the United States for the bot check on our forms), we ensure adequate protection through:
+Where our service providers process limited data outside the European Economic Area (EEA) (for example, Microsoft for support or service operations, Mailchimp in the United States for our newsletter, Cloudflare in the United States for the bot check on our forms, Stripe, Inc. in the United States for payments, or Apple and Google for delivering push notifications), we ensure adequate protection through:
 
 - Our providers' compliance with GDPR and Standard Contractual Clauses
-- Adequacy decisions by the European Commission (including the EU-US Data Privacy Framework, where applicable; Mailchimp and Cloudflare are certified under it)
+- Adequacy decisions by the European Commission (including the EU-US Data Privacy Framework, where applicable; Mailchimp, Cloudflare, Stripe, Apple and Google are certified under it)
 - Other appropriate safeguards as required by law
 
 ## 8. Data Retention
@@ -148,7 +148,8 @@ We retain your personal data for as long as necessary to:
 Specific retention periods:
 
 - **Account data**: When you delete your account (which you can do in the App), your account and personal identifiers are deleted within 30 days. Contributions such as plant and harvest records may be retained in anonymized form, no longer linked to you.
-- **Usage and error logs**: 12 months
+- **Usage and error logs**: at most 90 days
+- **Device tokens for push notifications**: until you turn notifications off, uninstall the App or delete your account; registrations that no longer work are cleaned up periodically
 - **Support and contact communications** (including contact form messages): 3 years
 - **Newsletter subscription**: Until you unsubscribe. A sign-up that is not confirmed through the confirmation email is deleted by Mailchimp after 60 days
 - **Website statistics**: Plausible stores no IP addresses, User-Agents or other persistent identifiers; the daily key is deleted after 24 hours. The aggregated statistics (such as page views per day) contain no personal data and are kept for as long as we use Plausible; they are deleted when we remove the Website from our Plausible account
@@ -187,7 +188,7 @@ Object to processing based on legitimate interests or for direct marketing.
 
 ### 9.7 Withdraw Consent
 
-Withdraw consent at any time where processing is based on consent (for example, location access via your device settings, or the newsletter via the unsubscribe link).
+Withdraw consent at any time where processing is based on consent (for example, location access or push notifications via your device settings, or the newsletter via the unsubscribe link).
 
 To exercise these rights, contact us at <hello@myfoodforest.nl>. We will respond within one month of receiving your request. For complex or numerous requests, we may extend this period by up to two further months; if so, we will inform you within the first month.
 
@@ -204,7 +205,7 @@ While we strive to protect your data, no method of transmission or storage is 10
 
 ## 11. Cookies and Similar Technologies
 
-This section describes our use of cookies and similar technologies on the Website, in the App and in the Portal, in accordance with the GDPR and Article 11.7a of the Dutch Telecommunications Act (Telecommunicatiewet).
+This section describes our use of cookies and similar technologies on the Website, in the App, in the Portal and in the Plant Database, in accordance with the GDPR and Article 11.7a of the Dutch Telecommunications Act (Telecommunicatiewet).
 
 ### 11.1 Website
 
@@ -252,7 +253,11 @@ These cookies are strictly necessary for signing in and are not used to track yo
 
 **Legal basis**: Strictly necessary storage is exempt from the consent requirement; for the underlying processing we rely on the performance of our contract with you and on our legitimate interest in providing a secure, functioning service.
 
-### 11.4 Changes to Our Use of Cookies
+### 11.4 Plant Database
+
+The Plant Database sets no cookies, stores nothing in your browser and uses no analytics or advertising technology.
+
+### 11.5 Changes to Our Use of Cookies
 
 If we introduce cookies or similar technologies that require consent in the future, we will update this policy and ask for your consent first, via a consent banner on the Website or an in-app prompt.
 
@@ -306,5 +311,5 @@ Email: <hello@myfoodforest.nl>
 
 *This privacy policy is available in [Dutch](./PRIVACY_NL.md).*
 
-**Document Version**: 1.3  
-**Effective Date**: October 16, 2026
+**Document Version**: 1.4  
+**Effective Date**: October 19, 2026

@@ -1,7 +1,7 @@
 # Algemene Voorwaarden
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 5 juni 2026
+Laatst bijgewerkt: 19 oktober 2026
 
 ## 1. Inleiding en Aanvaarding
 
@@ -10,7 +10,9 @@ Welkom bij My Food Forest, een platform geëxploiteerd door My Food Forest B.V.,
 Deze Algemene Voorwaarden ("Voorwaarden") zijn van toepassing op:
 
 - onze mobiele applicatie (de "App"), en
-- onze website op [www.myfoodforest.nl](https://www.myfoodforest.nl) (de "Website"),
+- onze website op [www.myfoodforest.nl](https://www.myfoodforest.nl) (de "Website"), en
+- ons webportaal op [myfoodforest.app](https://myfoodforest.app) (het "Portaal"), en
+- onze openbare plantendatabase op [plantdatabase.myfoodforest.io](https://plantdatabase.myfoodforest.io) (de "Plantendatabase"),
 
 samen aangeduid als de "Diensten".
 
@@ -33,10 +35,12 @@ E-mail: <hello@myfoodforest.nl>
 - **"Account"**: Uw geregistreerde gebruikersprofiel op ons platform
 - **"App"**: Onze mobiele applicatie voor iOS en Android
 - **"Website"**: Onze website op www.myfoodforest.nl, inclusief de blog, nieuwsbrief en contactmogelijkheden
+- **"Portaal"**: Ons webportaal op myfoodforest.app, waarin eigenaren en beheerders hun voedselbos, leden en abonnement beheren
+- **"Plantendatabase"**: Onze openbare plantendatabase op plantdatabase.myfoodforest.io
 - **"Inhoud"**: Alle tekst, afbeeldingen, video's, gegevens en andere materialen geplaatst of verzonden via de Diensten
 - **"Gebruikersinhoud"**: Inhoud die u creëert, uploadt of deelt via de Diensten
 - **"Voedselbos"**: Duurzame landbouwecosystemen die natuurlijke bossen nabootsen
-- **"Diensten"**: De App, de Website en gerelateerde digitale diensten
+- **"Diensten"**: De App, de Website, het Portaal, de Plantendatabase en gerelateerde digitale diensten
 
 ## 4. Geschiktheid en Accountregistratie
 
@@ -48,7 +52,7 @@ E-mail: <hello@myfoodforest.nl>
 
 ### 4.2 Account Aanmaken
 
-Voor de App is een Account vereist. De Website kan zonder Account worden gebruikt.
+Voor de App en het Portaal is een Account vereist. De Website en de Plantendatabase kunnen zonder Account worden gebruikt.
 
 - U moet accurate en volledige informatie verstrekken
 - U bent verantwoordelijk voor het onderhouden van accountbeveiliging
@@ -66,7 +70,8 @@ My Food Forest biedt:
 - Digitaal platform voor voedselbosplanning en -beheer
 - Communityfuncties voor het delen van kennis en ervaringen
 - Plantendatabases en teeltgidsen
-- Weerintegratie en seizoensplanningstools
+- Oogstkalender en seizoensplanningstools
+- Pushmeldingen, als u die aanzet
 - Foto's delen en voortgang bijhouden
 - Educatieve inhoud over duurzame landbouw, waaronder de blog op onze Website
 - Nieuwsbrief en contactmogelijkheden via de Website
@@ -162,19 +167,21 @@ Wij verwerken persoonsgegevens in overeenstemming met onze [Privacyverklaring](.
 
 ## 9. Betalingen en Abonnementen
 
-### 9.1 Huidige Prijzen
+### 9.1 Plannen
 
-Onze Diensten worden momenteel gratis aangeboden.
+Een voedselbos in My Food Forest heeft een plan: Freemium (gratis), Grow, Pro of Connect, in een grootte die past bij het voedselbos. Welke functies bij welk plan horen en wat een plan kost, tonen wij in het Portaal voordat u kiest, in euro's en inclusief toepasselijke Nederlandse btw.
 
-### 9.2 Toekomstige Betaalde Functies
+### 9.2 Gratis Periode
 
-Als wij betaalde functies of abonnementen introduceren:
+Tot en met 31 december 2026 bieden wij ieder voedselbos het Pro-plan kosteloos aan. Vanaf 1 januari 2027 kiest de eigenaar van een voedselbos een plan; zonder betaald plan geldt het gratis Freemium-plan. Wij informeren eigenaren hier van tevoren over.
 
-- Worden prijzen vóór aankoop in de App getoond, in Euro's en inclusief toepasselijke Nederlandse BTW
-- Worden betalingen veilig verwerkt via externe aanbieders
-- Verlengen abonnementen automatisch tenzij opgezegd, en herinneren wij u hieraan vóór verlenging
-- Worden prijswijzigingen minimaal 30 dagen van tevoren gecommuniceerd, en kunt u opzeggen voordat deze ingaan
-- Gelden voor terugbetalingen en het herroepingsrecht de bepalingen van artikel 16
+### 9.3 Betaling en Verlenging
+
+- Betalingen verlopen via onze betaalverwerker Stripe; wij slaan zelf geen betaalgegevens op
+- Abonnementen gelden per maand of per jaar en verlengen automatisch, tenzij u ze vóór het einde van de lopende periode opzegt via het Portaal; vóór een jaarlijkse verlenging herinneren wij u hieraan
+- Prijswijzigingen kondigen wij minimaal 30 dagen van tevoren aan, en u kunt opzeggen voordat deze ingaan
+- Facturen en uw betaalgeschiedenis vindt u in het Portaal
+- Voor terugbetalingen en het herroepingsrecht gelden de bepalingen van artikel 16
 
 ## 10. Servicebeschikbaarheid en Wijzigingen
 
@@ -193,7 +200,7 @@ Wij behouden ons het recht voor om functies op elk moment te wijzigen, bij te we
 
 ## 11. Diensten en Links van Derden
 
-Onze Diensten kunnen integreren met of linken naar diensten van derden (zoals weergegevensaanbieders, inlogproviders en socialemediaplatforms). Wij zijn niet verantwoordelijk voor inhoud van derden, privacypraktijken of servicebeschikbaarheid.
+Onze Diensten kunnen integreren met of linken naar diensten van derden (zoals kaartdiensten, inlogproviders, onze betaalverwerker en socialemediaplatforms). Wij zijn niet verantwoordelijk voor inhoud van derden, privacypraktijken of servicebeschikbaarheid.
 
 ## 12. Disclaimers en Beperkingen
 
@@ -235,7 +242,7 @@ Als een derde een vordering tegen ons instelt omdat uw Gebruikersinhoud of uw ge
 
 ### 14.1 Beëindiging door U
 
-U kunt uw account op elk moment beëindigen via accountinstellingen of door contact met ons op te nemen.
+U kunt uw account op elk moment beëindigen via de accountinstellingen in de App of het Portaal, of door contact met ons op te nemen.
 
 ### 14.2 Beëindiging door Ons
 
@@ -278,7 +285,7 @@ Voordat juridische stappen worden ondernomen, moedigen wij oplossing aan via:
 
 ### 16.1 Herroepingsrecht
 
-Als u als consument een betaalde digitale dienst bij ons afneemt, heeft u een herroepingsrecht van 14 dagen. Voor digitale inhoud of diensten die direct worden geleverd, verliest u dit recht alleen als u uitdrukkelijk instemt met directe uitvoering en erkent dat u daarmee uw herroepingsrecht verliest (artikel 6:230p BW). Zolang onze Diensten gratis zijn, geldt er geen herroepingsrecht omdat er geen sprake is van een aankoop.
+Als u als consument een betaalde digitale dienst bij ons afneemt, heeft u een herroepingsrecht van 14 dagen. Voor digitale inhoud of diensten die direct worden geleverd, verliest u dit recht alleen als u uitdrukkelijk instemt met directe uitvoering en erkent dat u daarmee uw herroepingsrecht verliest (artikel 6:230p BW). Voor functies die wij kosteloos aanbieden geldt geen herroepingsrecht, omdat er geen sprake is van een aankoop.
 
 ### 16.2 Conformiteitsrechten
 
@@ -307,6 +314,7 @@ Wij kunnen onze rechten en verplichtingen onder deze Voorwaarden overdragen aan 
 Wij kunnen deze Voorwaarden van tijd tot tijd bijwerken. Bij materiële wijzigingen informeren wij u minimaal 30 dagen voordat deze ingaan via:
 
 - In-app meldingen
+- Meldingen in het Portaal
 - E-mailmeldingen
 - Website-aankondigingen
 
@@ -329,5 +337,5 @@ Door onze Diensten te gebruiken, erkent u dat u deze Algemene Voorwaarden hebt g
 
 *Deze Algemene Voorwaarden zijn beschikbaar in het [Engels](./TERMSANDCONDITIONS_EN.md).*
 
-**Documentversie**: 1.2  
-**Ingangsdatum**: 5 juni 2026
+**Documentversie**: 1.3  
+**Ingangsdatum**: 19 november 2026

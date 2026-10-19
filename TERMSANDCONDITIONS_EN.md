@@ -1,7 +1,7 @@
 # Terms and Conditions
 
 **My Food Forest B.V.**  
-Last updated: June 5, 2026
+Last updated: October 19, 2026
 
 ## 1. Introduction and Acceptance
 
@@ -10,7 +10,9 @@ Welcome to My Food Forest, a platform operated by My Food Forest B.V., a company
 These Terms and Conditions ("Terms") apply to:
 
 - our mobile application (the "App"), and
-- our website at [www.myfoodforest.nl](https://www.myfoodforest.nl) (the "Website"),
+- our website at [www.myfoodforest.nl](https://www.myfoodforest.nl) (the "Website"), and
+- our web portal at [myfoodforest.app](https://myfoodforest.app) (the "Portal"), and
+- our public plant database at [plantdatabase.myfoodforest.io](https://plantdatabase.myfoodforest.io) (the "Plant Database"),
 
 together referred to as the "Services".
 
@@ -33,10 +35,12 @@ Email: <hello@myfoodforest.nl>
 - **"Account"**: Your registered user profile on our platform
 - **"App"**: Our mobile application for iOS and Android
 - **"Website"**: Our website at www.myfoodforest.nl, including the blog, newsletter, and contact features
+- **"Portal"**: Our web portal at myfoodforest.app, where owners and managers manage their food forest, members, and subscription
+- **"Plant Database"**: Our public plant database at plantdatabase.myfoodforest.io
 - **"Content"**: All text, images, videos, data, and other materials posted or transmitted through the Services
 - **"User Content"**: Content that you create, upload, or share through the Services
 - **"Food Forest"**: Sustainable agricultural ecosystems mimicking natural forests
-- **"Services"**: The App, the Website, and related digital services
+- **"Services"**: The App, the Website, the Portal, the Plant Database, and related digital services
 
 ## 4. Eligibility and Account Registration
 
@@ -48,7 +52,7 @@ Email: <hello@myfoodforest.nl>
 
 ### 4.2 Account Creation
 
-An Account is required for the App. The Website can be used without an Account.
+An Account is required for the App and the Portal. The Website and the Plant Database can be used without an Account.
 
 - You must provide accurate and complete information
 - You are responsible for maintaining account security
@@ -66,7 +70,8 @@ My Food Forest provides:
 - Digital platform for food forest planning and management
 - Community features for sharing knowledge and experiences
 - Plant databases and growing guides
-- Weather integration and seasonal planning tools
+- Harvest calendar and seasonal planning tools
+- Push notifications, if you turn them on
 - Photo sharing and progress tracking
 - Educational content about sustainable agriculture, including the blog on our Website
 - Newsletter and contact options via the Website
@@ -162,18 +167,20 @@ We process personal data in accordance with our [Privacy Policy](./PRIVACY_EN.md
 
 ## 9. Payments and Subscriptions
 
-### 9.1 Current Pricing
+### 9.1 Plans
 
-Our Services are currently offered free of charge.
+A food forest in My Food Forest has a plan: Freemium (free), Grow, Pro, or Connect, in a size that fits the food forest. We show which features belong to which plan, and what a plan costs, in the Portal before you choose, in Euros and including applicable Dutch VAT.
 
-### 9.2 Future Paid Features
+### 9.2 Free Period
 
-If we introduce paid features or subscriptions:
+Up to and including December 31, 2026, we offer every food forest the Pro plan free of charge. From January 1, 2027, the owner of a food forest chooses a plan; without a paid plan, the free Freemium plan applies. We will inform owners in advance.
 
-- Pricing will be displayed in the App before purchase, in Euros and including applicable Dutch VAT
-- Payments will be processed securely through third-party providers
-- Subscriptions will renew automatically unless canceled, and we will remind you of this before renewal
-- Price changes will be communicated at least 30 days in advance, and you may cancel before they take effect
+### 9.3 Payment and Renewal
+
+- Payments are processed by our payment provider Stripe; we do not store payment details ourselves
+- Subscriptions run per month or per year and renew automatically unless you cancel them in the Portal before the end of the current period; we remind you before a yearly renewal
+- Price changes are announced at least 30 days in advance, and you may cancel before they take effect
+- Invoices and your payment history are available in the Portal
 - Refunds and the right of withdrawal are governed by Section 16
 
 ## 10. Service Availability and Modifications
@@ -193,7 +200,7 @@ We reserve the right to modify, update, or discontinue features at any time with
 
 ## 11. Third-Party Services and Links
 
-Our Services may integrate with or link to third-party services (such as weather data providers, sign-in providers, and social media platforms). We are not responsible for third-party content, privacy practices, or service availability.
+Our Services may integrate with or link to third-party services (such as map services, sign-in providers, our payment provider, and social media platforms). We are not responsible for third-party content, privacy practices, or service availability.
 
 ## 12. Disclaimers and Limitations
 
@@ -235,7 +242,7 @@ If a third party brings a claim against us because your User Content or your use
 
 ### 14.1 Termination by You
 
-You may terminate your account at any time through account settings or by contacting us.
+You may terminate your account at any time through the account settings in the App or the Portal, or by contacting us.
 
 ### 14.2 Termination by Us
 
@@ -278,7 +285,7 @@ Before pursuing legal action, we encourage resolution through:
 
 ### 16.1 Right of Withdrawal
 
-If you purchase a paid digital service from us as a consumer, you have a 14-day right of withdrawal. For digital content or services delivered immediately, you only lose this right if you expressly consent to immediate performance and acknowledge that you thereby lose your right of withdrawal (Article 6:230p of the Dutch Civil Code). As long as our Services are free of charge, no right of withdrawal applies because there is no purchase.
+If you purchase a paid digital service from us as a consumer, you have a 14-day right of withdrawal. For digital content or services delivered immediately, you only lose this right if you expressly consent to immediate performance and acknowledge that you thereby lose your right of withdrawal (Article 6:230p of the Dutch Civil Code). For features we offer free of charge, no right of withdrawal applies because there is no purchase.
 
 ### 16.2 Conformity Rights
 
@@ -307,6 +314,7 @@ We may transfer our rights and obligations under these Terms to a third party in
 We may update these Terms from time to time. For material changes, we will notify you at least 30 days before they take effect through:
 
 - In-app notifications
+- Notifications in the Portal
 - Email notifications
 - Website announcements
 
@@ -329,5 +337,5 @@ By using our Services, you acknowledge that you have read, understood, and agree
 
 *These Terms and Conditions are available in [Dutch](./TERMSANDCONDITIONS_NL.md).*
 
-**Document Version**: 1.2  
-**Effective Date**: June 5, 2026
+**Document Version**: 1.3  
+**Effective Date**: November 19, 2026
