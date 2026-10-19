@@ -1,7 +1,7 @@
 # Security Policy
 
 **My Food Forest B.V.**
-Last updated: June 5, 2026
+Last updated: October 19, 2026
 
 We take the security of our services and our users' data seriously. We value the work of security researchers and welcome reports of vulnerabilities, in line with the [NCSC Coordinated Vulnerability Disclosure guideline](https://www.ncsc.nl/api/media/sites/default/files/Coordinated_Vulnerability_Disclosure_the_Guideline.pdf) (PDF).
 
@@ -25,13 +25,16 @@ Please do **not** report security vulnerabilities through public GitHub issues.
 This policy applies to:
 
 - The My Food Forest mobile apps (iOS and Android)
-- Our APIs and backend services
+- Our APIs and backend services (api.myfoodforest.io)
 - Our website at [www.myfoodforest.nl](https://www.myfoodforest.nl)
+- Our web portal at [myfoodforest.app](https://myfoodforest.app)
+- Our public plant database at [plantdatabase.myfoodforest.io](https://plantdatabase.myfoodforest.io)
+- Our shop at [www.myfoodforest.store](https://www.myfoodforest.store)
 - Repositories in the [MyFoodForest](https://github.com/MyFoodForest) GitHub organization
 
 **Out of scope:**
 
-- Vulnerabilities in third-party services we use (Microsoft Azure, Microsoft Entra, Microsoft Forms, Mailchimp) — please report these to the vendor; do let us know as well if our configuration is affected
+- Vulnerabilities in third-party services we use (Microsoft Azure, Microsoft Entra, Stripe, Sentry, Cloudflare, Plausible, Mailchimp, Mapbox, PDOK, and the Apple and Google app stores and push services) — please report these to the vendor; do let us know as well if our configuration is affected
 - Denial-of-service or volumetric attacks
 - Spam, phishing, or social engineering of our team or users
 - Findings without security impact (e.g. missing best-practice headers without a demonstrated exploit, version disclosure)
@@ -55,7 +58,7 @@ While researching, please:
 
 ## security.txt
 
-A machine-readable version of this policy will be available at `https://www.myfoodforest.nl/.well-known/security.txt` (RFC 9116).
+A machine-readable version of this policy (RFC 9116) is published at `https://www.myfoodforest.nl/.well-known/security.txt`. Our other public hosts answer the same path with a copy or a redirect to it.
 
 ---
 
