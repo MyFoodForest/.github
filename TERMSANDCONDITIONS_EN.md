@@ -1,7 +1,7 @@
 # Terms and Conditions
 
 **My Food Forest B.V.**  
-Last updated: October 19, 2026
+Last updated: October 21, 2026
 
 ## 1. Introduction and Acceptance
 
@@ -171,11 +171,7 @@ We process personal data in accordance with our [Privacy Policy](./PRIVACY_EN.md
 
 A food forest in My Food Forest has a plan: Freemium (free), Grow, Pro, or Connect, in a size that fits the food forest. We show which features belong to which plan, and what a plan costs, in the Portal before you choose, in Euros and including applicable Dutch VAT.
 
-### 9.2 Free Period
-
-Up to and including December 31, 2026, we offer every food forest the Pro plan free of charge. From January 1, 2027, the owner of a food forest chooses a plan; without a paid plan, the free Freemium plan applies. We will inform owners in advance.
-
-### 9.3 Payment and Renewal
+### 9.2 Payment and Renewal
 
 - Payments are processed by our payment provider Stripe; we do not store payment details ourselves
 - Subscriptions run per month or per year and renew automatically unless you cancel them in the Portal before the end of the current period; we remind you before a yearly renewal
@@ -337,5 +333,5 @@ By using our Services, you acknowledge that you have read, understood, and agree
 
 *These Terms and Conditions are available in [Dutch](./TERMSANDCONDITIONS_NL.md).*
 
-**Document Version**: 1.3  
+**Document Version**: 1.4  
 **Effective Date**: November 19, 2026
