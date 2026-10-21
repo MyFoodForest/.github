@@ -1,7 +1,7 @@
 # Algemene Voorwaarden
 
 **My Food Forest B.V.**  
-Laatst bijgewerkt: 19 oktober 2026
+Laatst bijgewerkt: 21 oktober 2026
 
 ## 1. Inleiding en Aanvaarding
 
@@ -171,11 +171,7 @@ Wij verwerken persoonsgegevens in overeenstemming met onze [Privacyverklaring](.
 
 Een voedselbos in My Food Forest heeft een plan: Freemium (gratis), Grow, Pro of Connect, in een grootte die past bij het voedselbos. Welke functies bij welk plan horen en wat een plan kost, tonen wij in het Portaal voordat u kiest, in euro's en inclusief toepasselijke Nederlandse btw.
 
-### 9.2 Gratis Periode
-
-Tot en met 31 december 2026 bieden wij ieder voedselbos het Pro-plan kosteloos aan. Vanaf 1 januari 2027 kiest de eigenaar van een voedselbos een plan; zonder betaald plan geldt het gratis Freemium-plan. Wij informeren eigenaren hier van tevoren over.
-
-### 9.3 Betaling en Verlenging
+### 9.2 Betaling en Verlenging
 
 - Betalingen verlopen via onze betaalverwerker Stripe; wij slaan zelf geen betaalgegevens op
 - Abonnementen gelden per maand of per jaar en verlengen automatisch, tenzij u ze vóór het einde van de lopende periode opzegt via het Portaal; vóór een jaarlijkse verlenging herinneren wij u hieraan
@@ -337,5 +333,5 @@ Door onze Diensten te gebruiken, erkent u dat u deze Algemene Voorwaarden hebt g
 
 *Deze Algemene Voorwaarden zijn beschikbaar in het [Engels](./TERMSANDCONDITIONS_EN.md).*
 
-**Documentversie**: 1.3  
+**Documentversie**: 1.4  
 **Ingangsdatum**: 19 november 2026
